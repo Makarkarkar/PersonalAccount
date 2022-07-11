@@ -1,0 +1,93 @@
+C:\Users\ivvm3\RiderProjects\Personal Account\Personal Account\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\ivvm3\RiderProjects\Personal Account\Personal Account\bin\Debug\net6.0\appsettings.json
+C:\Users\ivvm3\RiderProjects\Personal Account\Personal Account\bin\Debug\net6.0\Personal Account.exe
+C:\Users\ivvm3\RiderProjects\Personal Account\Personal Account\bin\Debug\net6.0\Personal Account.deps.json
+C:\Users\ivvm3\RiderProjects\Personal Account\Personal Account\bin\Debug\net6.0\Personal Account.runtimeconfig.json
+C:\Users\ivvm3\RiderProjects\Personal Account\Personal Account\bin\Debug\net6.0\Personal Account.dll
+C:\Users\ivvm3\RiderProjects\Personal Account\Personal Account\bin\Debug\net6.0\Personal Account.pdb
+C:\Users\ivvm3\RiderProjects\Personal Account\Personal Account\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\ivvm3\RiderProjects\Personal Account\Personal Account\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\ivvm3\RiderProjects\Personal Account\Personal Account\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\ivvm3\RiderProjects\Personal Account\Personal Account\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\ivvm3\RiderProjects\Personal Account\Personal Account\obj\Debug\net6.0\Personal Account.csproj.AssemblyReference.cache
+C:\Users\ivvm3\RiderProjects\Personal Account\Personal Account\obj\Debug\net6.0\Personal Account.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ivvm3\RiderProjects\Personal Account\Personal Account\obj\Debug\net6.0\Personal Account.AssemblyInfoInputs.cache
+C:\Users\ivvm3\RiderProjects\Personal Account\Personal Account\obj\Debug\net6.0\Personal Account.AssemblyInfo.cs
+C:\Users\ivvm3\RiderProjects\Personal Account\Personal Account\obj\Debug\net6.0\Personal Account.csproj.CoreCompileInputs.cache
+C:\Users\ivvm3\RiderProjects\Personal Account\Personal Account\obj\Debug\net6.0\Personal Account.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\ivvm3\RiderProjects\Personal Account\Personal Account\obj\Debug\net6.0\Personal Account.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\ivvm3\RiderProjects\Personal Account\Personal Account\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\ivvm3\RiderProjects\Personal Account\Personal Account\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\ivvm3\RiderProjects\Personal Account\Personal Account\obj\Debug\net6.0\scopedcss\bundle\Personal Account.styles.css
+C:\Users\ivvm3\RiderProjects\Personal Account\Personal Account\obj\Debug\net6.0\Personal Account.csproj.CopyComplete
+C:\Users\ivvm3\RiderProjects\Personal Account\Personal Account\obj\Debug\net6.0\Personal Account.dll
+C:\Users\ivvm3\RiderProjects\Personal Account\Personal Account\obj\Debug\net6.0\refint\Personal Account.dll
+C:\Users\ivvm3\RiderProjects\Personal Account\Personal Account\obj\Debug\net6.0\Personal Account.pdb
+C:\Users\ivvm3\RiderProjects\Personal Account\Personal Account\obj\Debug\net6.0\Personal Account.genruntimeconfig.cache
+C:\Users\ivvm3\RiderProjects\Personal Account\Personal Account\obj\Debug\net6.0\ref\Personal Account.dll
+C:\Users\ivvm3\RiderProjects\Personal Account\Personal Account\bin\Debug\net6.0\Humanizer.dll
+C:\Users\ivvm3\RiderProjects\Personal Account\Personal Account\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\ivvm3\RiderProjects\Personal Account\Personal Account\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\ivvm3\RiderProjects\Personal Account\Personal Account\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\ivvm3\RiderProjects\Personal Account\Personal Account\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\ivvm3\RiderProjects\Personal Account\Personal Account\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.Design.dll
+C:\Users\ivvm3\RiderProjects\Personal Account\Personal Account\bin\Debug\net6.0\Npgsql.dll
+C:\Users\ivvm3\RiderProjects\Personal Account\Personal Account\bin\Debug\net6.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\Users\ivvm3\RiderProjects\Personal Account\Personal Account\bin\Debug\net6.0\Npgsql.EntityFrameworkCore.PostgreSQL.Design.dll
+C:\Users\ivvm3\RiderProjects\Personal Account\Personal Account\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\ivvm3\RiderProjects\Personal Account\Personal Account\bin\Debug\net6.0\Dapper.dll
+C:\Users\ivvm3\RiderProjects\Personal Account\Personal Account\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.Versioning.dll
+C:\Users\ivvm3\RiderProjects\Personal Account\Personal Account\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\ivvm3\RiderProjects\Personal Account\Personal Account\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\ivvm3\RiderProjects\Personal Account\Personal Account\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\ivvm3\RiderProjects\Personal Account\Personal Account\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
+C:\Users\ivvm3\RiderProjects\Personal Account\Personal Account\bin\Debug\net6.0\Microsoft.AspNetCore.SpaServices.Extensions.dll
+C:\Users\ivvm3\Downloads\PersonalAccount-745b7718940a3094adf3f34cd9f03b91b313d081\PersonalAccount-745b7718940a3094adf3f34cd9f03b91b313d081\Personal Account\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\ivvm3\Downloads\PersonalAccount-745b7718940a3094adf3f34cd9f03b91b313d081\PersonalAccount-745b7718940a3094adf3f34cd9f03b91b313d081\Personal Account\bin\Debug\net6.0\appsettings.json
+C:\Users\ivvm3\Downloads\PersonalAccount-745b7718940a3094adf3f34cd9f03b91b313d081\PersonalAccount-745b7718940a3094adf3f34cd9f03b91b313d081\Personal Account\bin\Debug\net6.0\Personal Account.exe
+C:\Users\ivvm3\Downloads\PersonalAccount-745b7718940a3094adf3f34cd9f03b91b313d081\PersonalAccount-745b7718940a3094adf3f34cd9f03b91b313d081\Personal Account\bin\Debug\net6.0\Personal Account.deps.json
+C:\Users\ivvm3\Downloads\PersonalAccount-745b7718940a3094adf3f34cd9f03b91b313d081\PersonalAccount-745b7718940a3094adf3f34cd9f03b91b313d081\Personal Account\bin\Debug\net6.0\Personal Account.runtimeconfig.json
+C:\Users\ivvm3\Downloads\PersonalAccount-745b7718940a3094adf3f34cd9f03b91b313d081\PersonalAccount-745b7718940a3094adf3f34cd9f03b91b313d081\Personal Account\bin\Debug\net6.0\Personal Account.dll
+C:\Users\ivvm3\Downloads\PersonalAccount-745b7718940a3094adf3f34cd9f03b91b313d081\PersonalAccount-745b7718940a3094adf3f34cd9f03b91b313d081\Personal Account\bin\Debug\net6.0\Personal Account.pdb
+C:\Users\ivvm3\Downloads\PersonalAccount-745b7718940a3094adf3f34cd9f03b91b313d081\PersonalAccount-745b7718940a3094adf3f34cd9f03b91b313d081\Personal Account\bin\Debug\net6.0\Dapper.dll
+C:\Users\ivvm3\Downloads\PersonalAccount-745b7718940a3094adf3f34cd9f03b91b313d081\PersonalAccount-745b7718940a3094adf3f34cd9f03b91b313d081\Personal Account\bin\Debug\net6.0\Humanizer.dll
+C:\Users\ivvm3\Downloads\PersonalAccount-745b7718940a3094adf3f34cd9f03b91b313d081\PersonalAccount-745b7718940a3094adf3f34cd9f03b91b313d081\Personal Account\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\ivvm3\Downloads\PersonalAccount-745b7718940a3094adf3f34cd9f03b91b313d081\PersonalAccount-745b7718940a3094adf3f34cd9f03b91b313d081\Personal Account\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\ivvm3\Downloads\PersonalAccount-745b7718940a3094adf3f34cd9f03b91b313d081\PersonalAccount-745b7718940a3094adf3f34cd9f03b91b313d081\Personal Account\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.Versioning.dll
+C:\Users\ivvm3\Downloads\PersonalAccount-745b7718940a3094adf3f34cd9f03b91b313d081\PersonalAccount-745b7718940a3094adf3f34cd9f03b91b313d081\Personal Account\bin\Debug\net6.0\Microsoft.AspNetCore.SpaServices.Extensions.dll
+C:\Users\ivvm3\Downloads\PersonalAccount-745b7718940a3094adf3f34cd9f03b91b313d081\PersonalAccount-745b7718940a3094adf3f34cd9f03b91b313d081\Personal Account\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\ivvm3\Downloads\PersonalAccount-745b7718940a3094adf3f34cd9f03b91b313d081\PersonalAccount-745b7718940a3094adf3f34cd9f03b91b313d081\Personal Account\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\ivvm3\Downloads\PersonalAccount-745b7718940a3094adf3f34cd9f03b91b313d081\PersonalAccount-745b7718940a3094adf3f34cd9f03b91b313d081\Personal Account\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\ivvm3\Downloads\PersonalAccount-745b7718940a3094adf3f34cd9f03b91b313d081\PersonalAccount-745b7718940a3094adf3f34cd9f03b91b313d081\Personal Account\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\ivvm3\Downloads\PersonalAccount-745b7718940a3094adf3f34cd9f03b91b313d081\PersonalAccount-745b7718940a3094adf3f34cd9f03b91b313d081\Personal Account\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.Design.dll
+C:\Users\ivvm3\Downloads\PersonalAccount-745b7718940a3094adf3f34cd9f03b91b313d081\PersonalAccount-745b7718940a3094adf3f34cd9f03b91b313d081\Personal Account\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\ivvm3\Downloads\PersonalAccount-745b7718940a3094adf3f34cd9f03b91b313d081\PersonalAccount-745b7718940a3094adf3f34cd9f03b91b313d081\Personal Account\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\ivvm3\Downloads\PersonalAccount-745b7718940a3094adf3f34cd9f03b91b313d081\PersonalAccount-745b7718940a3094adf3f34cd9f03b91b313d081\Personal Account\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\ivvm3\Downloads\PersonalAccount-745b7718940a3094adf3f34cd9f03b91b313d081\PersonalAccount-745b7718940a3094adf3f34cd9f03b91b313d081\Personal Account\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
+C:\Users\ivvm3\Downloads\PersonalAccount-745b7718940a3094adf3f34cd9f03b91b313d081\PersonalAccount-745b7718940a3094adf3f34cd9f03b91b313d081\Personal Account\bin\Debug\net6.0\Npgsql.dll
+C:\Users\ivvm3\Downloads\PersonalAccount-745b7718940a3094adf3f34cd9f03b91b313d081\PersonalAccount-745b7718940a3094adf3f34cd9f03b91b313d081\Personal Account\bin\Debug\net6.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\Users\ivvm3\Downloads\PersonalAccount-745b7718940a3094adf3f34cd9f03b91b313d081\PersonalAccount-745b7718940a3094adf3f34cd9f03b91b313d081\Personal Account\bin\Debug\net6.0\Npgsql.EntityFrameworkCore.PostgreSQL.Design.dll
+C:\Users\ivvm3\Downloads\PersonalAccount-745b7718940a3094adf3f34cd9f03b91b313d081\PersonalAccount-745b7718940a3094adf3f34cd9f03b91b313d081\Personal Account\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\ivvm3\Downloads\PersonalAccount-745b7718940a3094adf3f34cd9f03b91b313d081\PersonalAccount-745b7718940a3094adf3f34cd9f03b91b313d081\Personal Account\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\ivvm3\Downloads\PersonalAccount-745b7718940a3094adf3f34cd9f03b91b313d081\PersonalAccount-745b7718940a3094adf3f34cd9f03b91b313d081\Personal Account\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\ivvm3\Downloads\PersonalAccount-745b7718940a3094adf3f34cd9f03b91b313d081\PersonalAccount-745b7718940a3094adf3f34cd9f03b91b313d081\Personal Account\obj\Debug\net6.0\Personal Account.csproj.AssemblyReference.cache
+C:\Users\ivvm3\Downloads\PersonalAccount-745b7718940a3094adf3f34cd9f03b91b313d081\PersonalAccount-745b7718940a3094adf3f34cd9f03b91b313d081\Personal Account\obj\Debug\net6.0\Personal Account.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ivvm3\Downloads\PersonalAccount-745b7718940a3094adf3f34cd9f03b91b313d081\PersonalAccount-745b7718940a3094adf3f34cd9f03b91b313d081\Personal Account\obj\Debug\net6.0\Personal Account.AssemblyInfoInputs.cache
+C:\Users\ivvm3\Downloads\PersonalAccount-745b7718940a3094adf3f34cd9f03b91b313d081\PersonalAccount-745b7718940a3094adf3f34cd9f03b91b313d081\Personal Account\obj\Debug\net6.0\Personal Account.AssemblyInfo.cs
+C:\Users\ivvm3\Downloads\PersonalAccount-745b7718940a3094adf3f34cd9f03b91b313d081\PersonalAccount-745b7718940a3094adf3f34cd9f03b91b313d081\Personal Account\obj\Debug\net6.0\Personal Account.csproj.CoreCompileInputs.cache
+C:\Users\ivvm3\Downloads\PersonalAccount-745b7718940a3094adf3f34cd9f03b91b313d081\PersonalAccount-745b7718940a3094adf3f34cd9f03b91b313d081\Personal Account\obj\Debug\net6.0\Personal Account.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\ivvm3\Downloads\PersonalAccount-745b7718940a3094adf3f34cd9f03b91b313d081\PersonalAccount-745b7718940a3094adf3f34cd9f03b91b313d081\Personal Account\obj\Debug\net6.0\Personal Account.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\ivvm3\Downloads\PersonalAccount-745b7718940a3094adf3f34cd9f03b91b313d081\PersonalAccount-745b7718940a3094adf3f34cd9f03b91b313d081\Personal Account\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\ivvm3\Downloads\PersonalAccount-745b7718940a3094adf3f34cd9f03b91b313d081\PersonalAccount-745b7718940a3094adf3f34cd9f03b91b313d081\Personal Account\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\ivvm3\Downloads\PersonalAccount-745b7718940a3094adf3f34cd9f03b91b313d081\PersonalAccount-745b7718940a3094adf3f34cd9f03b91b313d081\Personal Account\obj\Debug\net6.0\scopedcss\bundle\Personal Account.styles.css
+C:\Users\ivvm3\Downloads\PersonalAccount-745b7718940a3094adf3f34cd9f03b91b313d081\PersonalAccount-745b7718940a3094adf3f34cd9f03b91b313d081\Personal Account\obj\Debug\net6.0\Personal Account.csproj.CopyComplete
+C:\Users\ivvm3\Downloads\PersonalAccount-745b7718940a3094adf3f34cd9f03b91b313d081\PersonalAccount-745b7718940a3094adf3f34cd9f03b91b313d081\Personal Account\obj\Debug\net6.0\Personal Account.dll
+C:\Users\ivvm3\Downloads\PersonalAccount-745b7718940a3094adf3f34cd9f03b91b313d081\PersonalAccount-745b7718940a3094adf3f34cd9f03b91b313d081\Personal Account\obj\Debug\net6.0\refint\Personal Account.dll
+C:\Users\ivvm3\Downloads\PersonalAccount-745b7718940a3094adf3f34cd9f03b91b313d081\PersonalAccount-745b7718940a3094adf3f34cd9f03b91b313d081\Personal Account\obj\Debug\net6.0\Personal Account.pdb
+C:\Users\ivvm3\Downloads\PersonalAccount-745b7718940a3094adf3f34cd9f03b91b313d081\PersonalAccount-745b7718940a3094adf3f34cd9f03b91b313d081\Personal Account\obj\Debug\net6.0\Personal Account.genruntimeconfig.cache
+C:\Users\ivvm3\Downloads\PersonalAccount-745b7718940a3094adf3f34cd9f03b91b313d081\PersonalAccount-745b7718940a3094adf3f34cd9f03b91b313d081\Personal Account\obj\Debug\net6.0\ref\Personal Account.dll
+C:\Users\ivvm3\Downloads\PersonalAccount-745b7718940a3094adf3f34cd9f03b91b313d081\PersonalAccount-745b7718940a3094adf3f34cd9f03b91b313d081\Personal Account\bin\Debug\net6.0\CsvHelper.dll
+C:\Users\ivvm3\Downloads\PersonalAccount-745b7718940a3094adf3f34cd9f03b91b313d081\PersonalAccount-745b7718940a3094adf3f34cd9f03b91b313d081\Personal Account\bin\Debug\net6.0\nlog.config
+C:\Users\ivvm3\Downloads\PersonalAccount-745b7718940a3094adf3f34cd9f03b91b313d081\PersonalAccount-745b7718940a3094adf3f34cd9f03b91b313d081\Personal Account\bin\Debug\net6.0\NLog.dll
+C:\Users\ivvm3\Downloads\PersonalAccount-745b7718940a3094adf3f34cd9f03b91b313d081\PersonalAccount-745b7718940a3094adf3f34cd9f03b91b313d081\Personal Account\bin\Debug\net6.0\NLog.Extensions.Logging.dll
+C:\Users\ivvm3\Downloads\PersonalAccount-745b7718940a3094adf3f34cd9f03b91b313d081\PersonalAccount-745b7718940a3094adf3f34cd9f03b91b313d081\Personal Account\bin\Debug\net6.0\NLog.Web.AspNetCore.dll
