@@ -5,7 +5,6 @@ using Microsoft.Net.Http.Headers;
 using NLog;
 using NLog.Web;
 using Personal_Account;
-using Personal_Account.Logger;
 using Personal_Account.Middleware;
 using Personal_Account.Middleware.MiddlewareException;
 using Personal_Account.Repository;

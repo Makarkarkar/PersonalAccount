@@ -38,3 +38,6 @@ Request-Time: 12.07.2022 1:48:09 Request-Path: /api/v1/transaction/by_doc_number
 Request-Time: 12.07.2022 1:48:10 Request-Path: /api/v1/transaction/by_doc_number_printRequest-Method: OPTIONS Response-Code: 204 
 Request-Time: 12.07.2022 1:48:11 Request-Path: /api/v1/transaction/by_doc_number_printRequest-Method: POST Response-Code: 200 
 Request-Time: 12.07.2022 1:48:16 Request-Path: /api/v1/transaction/by_doc_number_printRequest-Method: POST Response-Code: 200 
+Request-Time: 12.07.2022 2:44:41 Request-Path: /api/v1/transaction/by_ticket_number_print Request-Method: POST Response-Code: 200 
+Request-Time: 12.07.2022 2:50:50 Request-Path: /api/v1/transaction/by_ticket_number_print Request-Method: POST Response-Code: 200 
+Request-Time: 12.07.2022 2:51:09 Request-Path: /api/v1/transaction/by_doc_number_print Request-Method: POST Response-Code: 200 
