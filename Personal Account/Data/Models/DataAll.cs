@@ -8,15 +8,14 @@ namespace Personal_Account
     {
         public long? OperationId { get; set; }
         public string? Type { get; set; }
-        public DateTime? Time { get; set; }
+        public string Time { get; set; }
         public string? Place { get; set; }
         public string? Sender { get; set; }
 
-        public DateTime? TransactionTime { get; set; }
+        public DateTimeOffset? TransactionTime { get; set; }
 
         public string? ValidationStatus { get; set; }
-     
-        public short? OperationTimeTimezone { get; set; }
+        
       
         public long? PassengerId { get; set; }
         
@@ -50,13 +49,11 @@ namespace Personal_Account
         public long? AirlineRouteId { get; set; }
         public string? AirlineCode { get; set; }
         public string? DepartPlace { get; set; }
-        public DateTime? DepartDatetime { get; set; }
+        public string? DepartDatetime { get; set; }
         public string? ArrivePlace { get; set; }
-        public DateTime? ArriveDatetime { get; set; }
+        public string? ArriveDatetime { get; set; }
         public string? PnrId { get; set; }
         public string? OperatingAirlineCode { get; set; }
-        public short? DepartDatetimeTimezone { get; set; }
-        public short? ArriveDatetimeTimezone { get; set; }
         public string? CityFromCode { get; set; }
         public string? CityFromName { get; set; }
         public string? AirportFromIcaoCode { get; set; }
