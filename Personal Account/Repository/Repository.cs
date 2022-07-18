@@ -11,15 +11,18 @@ public class Repository : IRepository
 
 {
     private SIZContext _context;
+    private readonly IConfiguration _configuration;
 
-    public Repository(SIZContext context)
+    public Repository(SIZContext context, IConfiguration configuration)
     {
         _context = context;
+        _configuration = configuration;
     }
 
     public async Task<ICollection<DataAll>> ByDocNumberAsync(ByDocNumber byDocNumber)
     {
-        StreamReader sr = new StreamReader("SqlRows\\ByDocNumberSql.txt");
+        var sqlRoute = _configuration["SqlRows:ByDocNumberSqlRoute"];
+        StreamReader sr = new StreamReader(sqlRoute);
         string? line = await sr.ReadToEndAsync();
         string? parameterizedSqlRow = string.Format(line,byDocNumber.DocNumber) ;
         var dataCollection = await _context.DataAlls.FromSqlRaw(parameterizedSqlRow).ToListAsync();
@@ -33,28 +36,32 @@ public class Repository : IRepository
             throw new TicketNumberValidateException(
                 "Номер билета должен содержать 13 символов: цифры и латинские буквы");
         }
+        
         string sqlRow = "";
         if (byTicketNumber.ByTicketNumberCheckBox)
         {
-            StreamReader srByTicketNumberAll = new StreamReader("SqlRows\\ByTicketNumberAllTicketSql.txt");
+            var sqlRoute = _configuration["SqlRows:ByTicketNumberAllTicketSqlRoute"];
+            StreamReader srByTicketNumberAll = new StreamReader(sqlRoute);
             string? lineByTicketNumberAll = await srByTicketNumberAll.ReadToEndAsync();
             sqlRow = string.Format(lineByTicketNumberAll,byTicketNumber.TicketNumber) ;
         }
         else
         {
-           StreamReader srByTicketNumberSelected = new StreamReader("SqlRows\\ByTicketNumberSelectedTicketSql.txt");
+            var sqlRoute = _configuration["SqlRows:ByTicketNumberSelectedTicketSqlRoute"];
+            StreamReader srByTicketNumberSelected = new StreamReader(sqlRoute);
             string? lineByTicketNumberSelected = await srByTicketNumberSelected.ReadToEndAsync();
             sqlRow = string.Format(lineByTicketNumberSelected, byTicketNumber.TicketNumber) ; 
         }
 
         
-        var PassengerTickets = await _context.DataAlls.FromSqlRaw(sqlRow).ToListAsync();
-        return PassengerTickets;
+        var passengerTickets = await _context.DataAlls.FromSqlRaw(sqlRow).ToListAsync();
+        return passengerTickets;
     }
 
     public async Task<ICollection<DataAll>> ByDocNumberPrintAsync(ByDocNumberPrint byDocNumberPrint)
     {
-        StreamReader sr = new StreamReader("SqlRows\\ByDocNumberPrintSql.txt");
+        var sqlRoute = _configuration["SqlRows:ByDocNumberPrintSqlRoute"];
+        StreamReader sr = new StreamReader(sqlRoute);
         string? line = await sr.ReadToEndAsync();
         string? parameterizedSqlRow = string.Format(line,byDocNumberPrint.AirlineCompanyIataCode, byDocNumberPrint.DocNumber) ;
         var dataCollection = await _context.DataAlls.FromSqlRaw(parameterizedSqlRow).ToListAsync();
@@ -72,19 +79,21 @@ public class Repository : IRepository
         string sqlRow = "";
         if (byTicketNumberPrint.ByTicketNumberCheckBox)
         {
-            StreamReader srByTicketNumberAll = new StreamReader("SqlRows\\ByTicketNumberPrintAllTicketSql.txt");
+            var sqlRoute = _configuration["SqlRows:ByTicketNumberPrintAllTicketSqlRoute"];
+            StreamReader srByTicketNumberAll = new StreamReader(sqlRoute);
             string? lineByTicketNumberAll = await srByTicketNumberAll.ReadToEndAsync();
             sqlRow = string.Format(lineByTicketNumberAll,byTicketNumberPrint.AirlineCompanyIataCode, byTicketNumberPrint.TicketNumber) ;
             
         }
         else
         {
-            StreamReader srByTicketNumberSelected = new StreamReader("SqlRows\\ByTicketNumberPrintSelectedTicketSql.txt");
+            var sqlRoute = _configuration["SqlRows:ByTicketNumberPrintSelectedTicketSqlRoute"];
+            StreamReader srByTicketNumberSelected = new StreamReader(sqlRoute);
             string? lineByTicketNumberSelected = await srByTicketNumberSelected.ReadToEndAsync();
             sqlRow = string.Format(lineByTicketNumberSelected,byTicketNumberPrint.AirlineCompanyIataCode, byTicketNumberPrint.TicketNumber) ;
         }
          
-        var PassengerTickets = await _context.DataAlls.FromSqlRaw(sqlRow).ToListAsync();
-        return PassengerTickets;
+        var passengerTickets = await _context.DataAlls.FromSqlRaw(sqlRow).ToListAsync();
+        return passengerTickets;
     }
 }

@@ -30,7 +30,7 @@ public class ReaquestSIZLogMiddleware
             
             File.AppendAllText("logger.txt",sb.ToString());
             
-            Console.WriteLine("Лог запроса записан в файл");
+            //Console.WriteLine("Лог запроса записан в файл");
             logger.LogTrace(sb.ToString());
         }
         

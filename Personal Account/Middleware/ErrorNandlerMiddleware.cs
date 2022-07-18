@@ -11,19 +11,22 @@ namespace Personal_Account.Middleware
     public class ErrorHandlerMiddleware
     {
         private readonly RequestDelegate _next;
+        private readonly ILogger _logger;
 
-        public ErrorHandlerMiddleware(RequestDelegate next)
+        public ErrorHandlerMiddleware(RequestDelegate next,ILoggerFactory loggerFactory)
         {
             _next = next;
+            _logger = loggerFactory.CreateLogger<ErrorHandlerMiddleware>();
         }
 
-        public async Task Invoke(HttpContext context)
+        public async Task Invoke(HttpContext context, ILogger<ErrorHandlerMiddleware> logger)
         {
             void ErrorResponse(HttpStatusCode errorCode, string errorMessage)
             {
                 context.Response.StatusCode = (int)errorCode;
                 context.Response.WriteAsync(errorMessage);
             }
+
             try
             {
                 await _next(context);
@@ -31,18 +34,14 @@ namespace Personal_Account.Middleware
             catch (LockTimeOutException e)
             {
                 ErrorResponse(HttpStatusCode.RequestTimeout, e.Message);
+                _logger.LogError($"{HttpStatusCode.RequestTimeout} {e.Message}");
             }
-            catch (TicketNumberValidateException e)
+            finally
             {
-                ErrorResponse(HttpStatusCode.Conflict, e.Message);
-            }
-            // catch (DbUpdateException e)
-            // {
-            //     ErrorResponse(HttpStatusCode.Conflict, e.Message);
-            // }
-            catch (BadHttpRequestException e) when (e.Message == "Request body too large.")
-            {
-                ErrorResponse(HttpStatusCode.RequestEntityTooLarge, e.Message);
+                DateTime datetime = DateTime.Now;
+                var datetimestring = $"{datetime.Day}/{datetime.Month}/{datetime.Year} {datetime.Hour}:{datetime.Minute}:{datetime.Second}:{datetime.Millisecond}";
+                _logger.LogInformation("Request №{id}: {datetime} {method} {url} => {statusCode}", context.TraceIdentifier, datetimestring,
+                    context.Request.Method, context.Request.Path.Value, context.Response.StatusCode);
             }
           
         }

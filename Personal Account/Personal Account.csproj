@@ -11,6 +11,7 @@
         <PackageReference Include="CsvHelper" Version="27.2.1" />
         <PackageReference Include="Dapper" Version="2.0.123" />
         <PackageReference Include="EFCore.NamingConventions" Version="6.0.0" />
+        <PackageReference Include="EPPlus" Version="6.0.6" />
         <PackageReference Include="GrapeCity.Documents.Excel" Version="5.1.4" />
         <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="6.0.6" />
         <PackageReference Include="Microsoft.AspNetCore.Mvc.Versioning" Version="5.0.0" />
