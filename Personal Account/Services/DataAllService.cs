@@ -73,4 +73,14 @@ public class DataAllService: IDataAllService
         }
         throw new LockTimeOutException("Too long request");
     }
+
+    public async Task<ICollection<AirlineCompany>> ListAirlineCompaniesServiceAsync()
+    {
+        var transaction = _repository.ListAirlineCompaniesAsync();
+        if (await Task.WhenAny(transaction, Task.Delay(60000)) == transaction)
+        {
+            return await transaction;
+        }
+        throw new LockTimeOutException("Too long request");
+    }
 }

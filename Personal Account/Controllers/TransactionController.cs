@@ -41,4 +41,9 @@ public class TransactionController: ControllerBase
         Response.Headers.Add("content-disposition", $"attachment;  filename={byTicketNumberPrint.AirlineCompanyIataCode}airlineReport.xlsx");
         return Ok(await _service.ByTicketNumberPrintServiceAsync(byTicketNumberPrint));
     }
+    [HttpPost("list_airline_companies")]
+    public async Task<ActionResult> ListAirlineCompanies()
+    {
+        return Ok(await _service.ListAirlineCompaniesServiceAsync());
+    }
 }

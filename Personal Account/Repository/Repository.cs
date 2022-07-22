@@ -96,4 +96,12 @@ public class Repository : IRepository
         var passengerTickets = await _context.DataAlls.FromSqlRaw(sqlRow).ToListAsync();
         return passengerTickets;
     }
+
+    public async Task<ICollection<AirlineCompany>> ListAirlineCompaniesAsync()
+    {
+        var sqlRoute = _configuration["SqlRows:ListAirlineCompaniesSqlRoute"];
+        string sqlRow = await new StreamReader(sqlRoute).ReadToEndAsync();
+        var listAirlineCompanies = await _context.AirlineCompanies.FromSqlRaw(sqlRow).ToListAsync();
+        return listAirlineCompanies;
+    }
 }
