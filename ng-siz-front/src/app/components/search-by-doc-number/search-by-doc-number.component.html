@@ -1,0 +1,6 @@
+<div class="app-search-by-doc-number">
+    <h2 class="by_doc_number_h2" id="by_doc_number_header">По номеру документа</h2>
+    <label for="by_doc_number_input_label" class="by_doc_number_input_label">Серия и номер документа</label>
+    <input type="text" required pattern="{1,20}"  id="by_doc_number_input" (click)="clearTicketNumberInput()" class="by_doc_number_input" [(ngModel)]="docInput" #docValue="ngModel">
+    <button [disabled]="docValue.invalid || docValue.value == ''" class="by_doc_number_button" (click)="getByDocNumber()" id="by_doc_number_button">Найти</button>
+</div>

@@ -1,0 +1,73 @@
+<h1>Техподдержка</h1>
+<div class="ticket_search_pages_container">
+    <app-search-by-doc-number (docNumber) = "formationTable($event)"
+    (noTicketSearch) = "noTicketSearchWarning($event)"
+    ></app-search-by-doc-number>
+    <app-search-by-ticket-number (ticketNumber) = "formationTable($event)"
+    (noTicketSearch) = "noTicketSearchWarning($event)"
+    ></app-search-by-ticket-number>
+</div>
+<div id="loader" style="display: 'none';">
+  <span class="loader-span"></span>
+</div>
+<div id = "no_ticket_for_number_message"  *ngIf="no_ticket_search_warning" style=" color: red;">
+  <p>Нужных билетов не найдено, перепроверьте введенные данные.</p>
+</div>
+<div id = "wrong_number_message" style="display: 'none'; color: red;">
+  <p>Номер билета должен содержать 13 символов: цифры и латинские буквы.</p>
+</div>
+<div id = "wrong_time_request_message" style="display: 'none'; color: red;">
+  <p>Время запроса не должно превышать 60 секунд.</p>
+</div>
+<div id = "no-avaliable-database" style="display: 'none'; color: red;">
+  <p>Ошибка подключения к базе данных, исправьте ошибку и обновите страницу.</p>
+</div>
+<div id = "no-avaliable-backend" style="display: 'none'; color: red;">
+  <p>Ошибка подключения к серверу, исправьте ошибку и обновите страницу.</p>
+</div>
+<div id = "print_by_doc_number_div" style="display: 'none';">
+  <app-print-by-doc-number class="print_by_doc_number"></app-print-by-doc-number>
+</div>
+<div id = "print_by_ticket_number_div" style="display: 'none';">
+  <app-print-by-ticket-number class="print_by_ticket_number"></app-print-by-ticket-number> 
+</div>
+<button class="reload_button" id="reload_button" onclick="location.reload(); return false;" style="display: 'none'">Обновить</button>
+<table class="ticket_table" id = "ticket_table" style="display: 'none'">
+    <thead>
+      <tr>
+        <th>№</th>
+        <th>Документ</th>
+        <th>Фамилия</th>
+        <th>Имя</th>
+        <th>Отправитель</th>
+        <th>Статус</th>
+        <th>Дата операции</th>
+        <th>Тип операции</th>
+        <th>Номер билета</th>
+        <th>Время вылета</th>
+        <th>Код АК</th>
+        <th>Город вылета</th>
+        <th>Город прилета</th>
+      </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let ticket of Tickets;let indexOfElement=index;">
+          <td>{{indexOfElement+1}}</td>
+          <td>{{ticket.passengerDocumentNumber}}</td>
+          <td>{{ticket.surname}}</td>
+          <td>{{ticket.name}}</td>
+          <td>{{ticket.sender}}</td>
+          <td>{{ticket.validationStatus}}</td>
+          <td>{{ticket.time}}</td>
+          <td>{{ticket.type}}</td>
+          <td>{{ticket.ticketNumber}}</td>
+          <td>{{ticket.departDatetime}}</td>
+          <td>{{ticket.airlineCode}}</td>
+          <td>{{ticket.cityFromName}}</td>
+          <td>{{ticket.cityToName}}</td>
+        </tr>
+      </tbody>
+  </table>
+ 
+  
+

@@ -1,0 +1,247 @@
+html{
+  /* width: 100%; */
+  /* height: 100%; */
+  min-height: 100vh;
+  /* max-height: 1000vh; */
+}
+body {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: row;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin: 0;
+    
+    /* margin-top: 50px; */
+}
+
+aside {
+    min-height: 100vh; 
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 300px;
+    border-right: 3px solid black;
+    margin-left: 50px;
+    margin-right: 50px;
+    min-height: 80vh;
+}
+.ticket_search_pages_container{
+  display: flex;
+}
+.app-search-by-doc-number{
+    width: 300px;
+    margin-right: 100px;
+    margin-left: 50px;
+    /* margin-left: 10; */
+}
+.app-search-by-ticket-number{
+  width: 400px;
+  /* margin-left: 10; */
+}
+.by_doc_number_button {
+  color: #fff;
+  background-color: #1C8BC0;
+  border-color: #4699C1;
+  font-weight: bold;
+  font-size: 16px;
+  height: 50px;
+  border-radius: 0.45rem;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 300px;
+  box-sizing: border-box;
+}
+.by_doc_number_input {
+  font-weight: normal;
+  font-size: 22px;
+  padding-left: 10px;
+  height: 50px;
+  border-radius: 0.45rem;
+  border: 2px solid rgb(190, 190, 190);
+  margin-bottom: 28px; 
+  box-sizing: border-box;
+  width: 300px;
+  
+}
+
+.by_doc_number_input_label {
+  font-size: 16px;
+  color: gray;
+  
+}
+.by_doc_number_h2{
+  font-size: 22px;
+}
+.by_ticket_number_button {
+color: #fff;
+background-color: #1C8BC0;
+border-color: #4699C1;
+font-weight: bold;
+font-size: 16px;
+height: 50px;
+border-radius: 0.45rem;
+margin-top: 10px;
+margin-bottom: 20px;
+width: 300px;
+box-sizing: border-box;
+}
+.by_ticket_number_input {
+font-weight: normal;
+font-size: 22px;
+padding-left: 10px;
+height: 50px;
+border: 2px solid rgb(190, 190, 190);
+border-radius: 0.45rem;
+margin-bottom: 15px; 
+box-sizing: border-box;
+width: 300px;
+
+}
+.by_ticket_number_input_label {
+font-size: 16px;
+color: gray;
+
+}
+.by_ticket_number_h2{
+font-size: 22px;
+}
+.by_ticket_number_checkbox_container{
+  display: flex;
+  color: gray;
+}
+.by_ticket_number_checkbox{
+  width: 17px;
+}
+.print_by_doc_number{
+  margin-top: 20px;
+}
+
+.print_by_doc_number_button{
+  color: #fff;
+  background-color: #1C8BC0;
+  border-color: #4699C1;
+  font-weight: bold;
+  font-size: 16px;
+  height: 50px;
+  border-radius: 0.45rem;
+  width: 150px;
+  box-sizing: border-box;
+  margin-right: 20px;
+  margin-left: 50px;
+}
+.airlines_select_doc{
+  height: 50px;
+  border: 2px solid rgb(233, 233, 233);
+  border-radius: 0.45rem;
+  font-size: 20px;
+  padding-left: 20px;
+  margin-left: 20px;
+}
+.print_by_ticket_number{
+  margin-top: 20px;
+}
+
+.print_by_ticket_number_button{
+  color: #fff;
+  background-color: #1C8BC0;
+  border-color: #4699C1;
+  font-weight: bold;
+  font-size: 16px;
+  height: 50px;
+  border-radius: 0.45rem;
+  width: 150px;
+  box-sizing: border-box;
+  margin-right: 20px;
+  margin-left: 50px;
+}
+.airlines_select_number{
+  height: 50px;
+  border: 2px solid rgb(233, 233, 233);
+  border-radius: 0.45rem;
+  font-size: 20px;
+  padding-left: 20px;
+  margin-left: 20px;
+}
+
+.ticket_table{
+  margin-left: 50px;
+  margin-right: 20px;
+  margin-top: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  border: 1px solid rgb(233, 233, 233);
+  border-collapse: collapse;
+}
+.ticket_table tr:nth-child(odd){
+  box-sizing: border-box;
+  border: 1px solid rgb(233, 233, 233);
+  padding: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.ticket_table tr:nth-child(even){
+  box-sizing: border-box;
+  border: 1px solid rgb(233, 233, 233);
+  padding: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  background: #F7F7F7;
+}
+.ticket_table td{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.ticket_table th{
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.ticket_table thead tr{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 5px;
+  padding-right: 5px;
+  font-size: 14px;
+  border: 2px solid rgb(233, 233, 233);
+}
+
+.reload_button{
+  margin-top: 20px;
+  color: #fff;
+  background-color: #1C8BC0;
+  border-color: #4699C1;
+  font-weight: bold;
+  font-size: 16px;
+  height: 60px;
+  border-radius: 0.45rem;
+  width: 150px;
+  box-sizing: border-box;
+  margin-right: 20px;
+}
+
+.loader-span {
+  
+  width: 60px;
+  height: 60px;
+  border: 5px solid #6ebeff;
+  border-bottom-color: #337AB7;
+  border-radius: 50%;
+  display: inline-block;
+  box-sizing: border-box;
+  animation: rotation 1s linear infinite;
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+} 

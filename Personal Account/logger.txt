@@ -1,0 +1,326 @@
+Request-Time: 12.07.2022 0:08:56 Request-Path: /api/v1/transaction/by_ticket_numberRequest-Method: OPTIONS Response-Code: 204 
+Request-Time: 12.07.2022 0:09:00 Request-Path: /api/v1/transaction/by_ticket_numberRequest-Method: POST Response-Code: 200 
+Request-Time: 12.07.2022 1:36:25 Request-Path: /api/v1/transaction/by_doc_numberRequest-Method: OPTIONS Response-Code: 204 
+Request-Time: 12.07.2022 1:36:38 Request-Path: /api/v1/transaction/by_doc_numberRequest-Method: OPTIONS Response-Code: 204 
+Request-Time: 12.07.2022 1:36:44 Request-Path: /api/v1/transaction/by_doc_numberRequest-Method: OPTIONS Response-Code: 204 
+Request-Time: 12.07.2022 1:37:03 Request-Path: /api/v1/transaction/by_doc_numberRequest-Method: POST Response-Code: 200 
+Request-Time: 12.07.2022 1:37:03 Request-Path: /api/v1/transaction/by_doc_numberRequest-Method: POST Response-Code: 200 
+Request-Time: 12.07.2022 1:37:04 Request-Path: /api/v1/transaction/by_doc_numberRequest-Method: POST Response-Code: 200 
+Request-Time: 12.07.2022 1:37:11 Request-Path: /api/v1/transaction/by_doc_numberRequest-Method: OPTIONS Response-Code: 204 
+Request-Time: 12.07.2022 1:37:11 Request-Path: /api/v1/transaction/by_doc_numberRequest-Method: POST Response-Code: 200 
+Request-Time: 12.07.2022 1:37:17 Request-Path: /api/v1/transaction/by_doc_numberRequest-Method: OPTIONS Response-Code: 204 
+Request-Time: 12.07.2022 1:37:17 Request-Path: /api/v1/transaction/by_doc_numberRequest-Method: POST Response-Code: 200 
+Request-Time: 12.07.2022 1:37:19 Request-Path: /api/v1/transaction/by_doc_numberRequest-Method: POST Response-Code: 200 
+Request-Time: 12.07.2022 1:37:30 Request-Path: /api/v1/transaction/by_doc_numberRequest-Method: OPTIONS Response-Code: 204 
+Request-Time: 12.07.2022 1:37:30 Request-Path: /api/v1/transaction/by_doc_numberRequest-Method: POST Response-Code: 200 
+Request-Time: 12.07.2022 1:37:46 Request-Path: /api/v1/transaction/by_ticket_number_printRequest-Method: POST Response-Code: 409 
+Request-Time: 12.07.2022 1:37:54 Request-Path: /api/v1/transaction/by_ticket_number_printRequest-Method: POST Response-Code: 200 
+Request-Time: 12.07.2022 1:38:35 Request-Path: /api/v1/transaction/by_doc_numberRequest-Method: OPTIONS Response-Code: 204 
+Request-Time: 12.07.2022 1:38:35 Request-Path: /api/v1/transaction/by_doc_numberRequest-Method: POST Response-Code: 200 
+Request-Time: 12.07.2022 1:38:57 Request-Path: /api/v1/transaction/by_ticket_numberRequest-Method: OPTIONS Response-Code: 204 
+Request-Time: 12.07.2022 1:38:57 Request-Path: /api/v1/transaction/by_ticket_numberRequest-Method: POST Response-Code: 200 
+Request-Time: 12.07.2022 1:39:49 Request-Path: /api/v1/transaction/by_doc_numberRequest-Method: OPTIONS Response-Code: 204 
+Request-Time: 12.07.2022 1:39:49 Request-Path: /api/v1/transaction/by_doc_numberRequest-Method: POST Response-Code: 200 
+Request-Time: 12.07.2022 1:40:11 Request-Path: /api/v1/transaction/by_doc_numberRequest-Method: OPTIONS Response-Code: 204 
+Request-Time: 12.07.2022 1:40:11 Request-Path: /api/v1/transaction/by_doc_numberRequest-Method: POST Response-Code: 200 
+Request-Time: 12.07.2022 1:40:48 Request-Path: /api/v1/transaction/by_doc_numberRequest-Method: OPTIONS Response-Code: 204 
+Request-Time: 12.07.2022 1:40:48 Request-Path: /api/v1/transaction/by_doc_numberRequest-Method: POST Response-Code: 200 
+Request-Time: 12.07.2022 1:41:00 Request-Path: /api/v1/transaction/by_doc_number_printRequest-Method: OPTIONS Response-Code: 204 
+Request-Time: 12.07.2022 1:41:01 Request-Path: /api/v1/transaction/by_doc_number_printRequest-Method: POST Response-Code: 200 
+Request-Time: 12.07.2022 1:46:46 Request-Path: /api/v1/transaction/by_doc_numberRequest-Method: OPTIONS Response-Code: 204 
+Request-Time: 12.07.2022 1:46:46 Request-Path: /api/v1/transaction/by_doc_numberRequest-Method: POST Response-Code: 200 
+Request-Time: 12.07.2022 1:46:51 Request-Path: /api/v1/transaction/by_ticket_numberRequest-Method: OPTIONS Response-Code: 204 
+Request-Time: 12.07.2022 1:46:51 Request-Path: /api/v1/transaction/by_ticket_numberRequest-Method: POST Response-Code: 200 
+Request-Time: 12.07.2022 1:47:52 Request-Path: /api/v1/transaction/by_ticket_numberRequest-Method: OPTIONS Response-Code: 204 
+Request-Time: 12.07.2022 1:47:52 Request-Path: /api/v1/transaction/by_ticket_numberRequest-Method: POST Response-Code: 200 
+Request-Time: 12.07.2022 1:48:09 Request-Path: /api/v1/transaction/by_doc_numberRequest-Method: OPTIONS Response-Code: 204 
+Request-Time: 12.07.2022 1:48:09 Request-Path: /api/v1/transaction/by_doc_numberRequest-Method: POST Response-Code: 200 
+Request-Time: 12.07.2022 1:48:10 Request-Path: /api/v1/transaction/by_doc_number_printRequest-Method: OPTIONS Response-Code: 204 
+Request-Time: 12.07.2022 1:48:11 Request-Path: /api/v1/transaction/by_doc_number_printRequest-Method: POST Response-Code: 200 
+Request-Time: 12.07.2022 1:48:16 Request-Path: /api/v1/transaction/by_doc_number_printRequest-Method: POST Response-Code: 200 
+Request-Time: 12.07.2022 2:44:41 Request-Path: /api/v1/transaction/by_ticket_number_print Request-Method: POST Response-Code: 200 
+Request-Time: 12.07.2022 2:50:50 Request-Path: /api/v1/transaction/by_ticket_number_print Request-Method: POST Response-Code: 200 
+Request-Time: 12.07.2022 2:51:09 Request-Path: /api/v1/transaction/by_doc_number_print Request-Method: POST Response-Code: 200 
+Request-Time: 13.07.2022 16:07:51 Request-Path: /api/v1/transaction/by_doc_number Request-Method: POST Response-Code: 200 
+Request-Time: 13.07.2022 16:08:37 Request-Path: /api/v1/transaction/by_ticket_number Request-Method: POST Response-Code: 200 
+Request-Time: 13.07.2022 16:14:38 Request-Path: /api/v1/transaction/by_ticket_number Request-Method: POST Response-Code: 200 
+Request-Time: 13.07.2022 16:15:45 Request-Path: /api/v1/transaction/by_ticket_number Request-Method: POST Response-Code: 200 
+Request-Time: 13.07.2022 16:16:27 Request-Path: /api/v1/transaction/by_doc_number Request-Method: POST Response-Code: 200 
+Request-Time: 13.07.2022 16:19:43 Request-Path: /api/v1/transaction/by_doc_number Request-Method: POST Response-Code: 200 
+Request-Time: 13.07.2022 16:20:46 Request-Path: /api/v1/transaction/by_doc_number Request-Method: POST Response-Code: 200 
+Request-Time: 13.07.2022 16:21:52 Request-Path: /api/v1/transaction/by_doc_number Request-Method: POST Response-Code: 200 
+Request-Time: 13.07.2022 16:37:08 Request-Path: /api/v1/transaction/by_doc_number Request-Method: POST Response-Code: 200 
+Request-Time: 13.07.2022 16:41:27 Request-Path: /api/v1/transaction/by_doc_number Request-Method: POST Response-Code: 200 
+Request-Time: 13.07.2022 18:13:55 Request-Path: /api/v1/transaction/by_doc_number Request-Method: POST Response-Code: 200 
+Request-Time: 13.07.2022 18:14:21 Request-Path: /api/v1/transaction/by_doc_number_print Request-Method: POST Response-Code: 200 
+Request-Time: 13.07.2022 18:33:13 Request-Path: /api/v1/transaction/by_doc_number_print Request-Method: POST Response-Code: 200 
+Request-Time: 13.07.2022 19:09:59 Request-Path: /api/v1/transaction/by_ticket_number Request-Method: OPTIONS Response-Code: 204 
+Request-Time: 13.07.2022 19:10:00 Request-Path: /api/v1/transaction/by_ticket_number Request-Method: POST Response-Code: 200 
+Request-Time: 13.07.2022 19:19:47 Request-Path: /api/v1/transaction/by_doc_number Request-Method: OPTIONS Response-Code: 204 
+Request-Time: 13.07.2022 19:19:47 Request-Path: /api/v1/transaction/by_doc_number Request-Method: POST Response-Code: 200 
+Request-Time: 13.07.2022 19:21:07 Request-Path: /api/v1/transaction/by_doc_number Request-Method: OPTIONS Response-Code: 204 
+Request-Time: 13.07.2022 19:21:07 Request-Path: /api/v1/transaction/by_doc_number Request-Method: POST Response-Code: 200 
+Request-Time: 13.07.2022 19:42:00 Request-Path: /api/v1/transaction/by_doc_number Request-Method: OPTIONS Response-Code: 204 
+Request-Time: 13.07.2022 19:42:01 Request-Path: /api/v1/transaction/by_doc_number Request-Method: POST Response-Code: 200 
+Request-Time: 13.07.2022 20:13:08 Request-Path: /api/v1/transaction/by_doc_number Request-Method: OPTIONS Response-Code: 204 
+Request-Time: 13.07.2022 20:13:08 Request-Path: /api/v1/transaction/by_doc_number Request-Method: POST Response-Code: 200 
+Request-Time: 13.07.2022 20:13:23 Request-Path: /api/v1/transaction/by_doc_number Request-Method: OPTIONS Response-Code: 204 
+Request-Time: 13.07.2022 20:13:23 Request-Path: /api/v1/transaction/by_doc_number Request-Method: POST Response-Code: 200 
+Request-Time: 13.07.2022 20:13:28 Request-Path: /api/v1/transaction/by_doc_number Request-Method: OPTIONS Response-Code: 204 
+Request-Time: 13.07.2022 20:13:28 Request-Path: /api/v1/transaction/by_doc_number Request-Method: POST Response-Code: 200 
+Request-Time: 13.07.2022 20:13:30 Request-Path: /api/v1/transaction/by_doc_number Request-Method: POST Response-Code: 200 
+Request-Time: 13.07.2022 20:13:30 Request-Path: /api/v1/transaction/by_doc_number Request-Method: POST Response-Code: 200 
+Request-Time: 13.07.2022 20:13:31 Request-Path: /api/v1/transaction/by_doc_number Request-Method: POST Response-Code: 200 
+Request-Time: 13.07.2022 20:13:31 Request-Path: /api/v1/transaction/by_doc_number Request-Method: POST Response-Code: 200 
+Request-Time: 13.07.2022 20:13:31 Request-Path: /api/v1/transaction/by_doc_number Request-Method: POST Response-Code: 200 
+Request-Time: 13.07.2022 20:16:31 Request-Path: /api/v1/transaction/by_doc_number Request-Method: OPTIONS Response-Code: 204 
+Request-Time: 13.07.2022 20:16:31 Request-Path: /api/v1/transaction/by_doc_number Request-Method: POST Response-Code: 200 
+Request-Time: 13.07.2022 20:21:04 Request-Path: /api/v1/transaction/by_doc_number Request-Method: OPTIONS Response-Code: 204 
+Request-Time: 13.07.2022 20:21:05 Request-Path: /api/v1/transaction/by_doc_number Request-Method: POST Response-Code: 200 
+Request-Time: 13.07.2022 20:50:46 Request-Path: /api/v1/transaction/by_doc_number Request-Method: OPTIONS Response-Code: 204 
+Request-Time: 13.07.2022 20:50:47 Request-Path: /api/v1/transaction/by_doc_number Request-Method: POST Response-Code: 200 
+Request-Time: 13.07.2022 20:59:49 Request-Path: /api/v1/transaction/by_doc_number Request-Method: OPTIONS Response-Code: 204 
+Request-Time: 13.07.2022 20:59:50 Request-Path: /api/v1/transaction/by_doc_number Request-Method: POST Response-Code: 200 
+Request-Time: 13.07.2022 20:59:51 Request-Path: /api/v1/transaction/by_doc_number Request-Method: POST Response-Code: 200 
+Request-Time: 13.07.2022 20:59:54 Request-Path: /api/v1/transaction/by_doc_number Request-Method: POST Response-Code: 200 
+Request-Time: 13.07.2022 20:59:54 Request-Path: /api/v1/transaction/by_doc_number Request-Method: OPTIONS Response-Code: 204 
+Request-Time: 13.07.2022 20:59:55 Request-Path: /api/v1/transaction/by_doc_number Request-Method: POST Response-Code: 200 
+Request-Time: 13.07.2022 20:59:55 Request-Path: /api/v1/transaction/by_doc_number Request-Method: POST Response-Code: 200 
+Request-Time: 13.07.2022 20:59:55 Request-Path: /api/v1/transaction/by_doc_number Request-Method: POST Response-Code: 200 
+Request-Time: 13.07.2022 21:00:02 Request-Path: /api/v1/transaction/by_doc_number Request-Method: OPTIONS Response-Code: 204 
+Request-Time: 13.07.2022 21:00:02 Request-Path: /api/v1/transaction/by_doc_number Request-Method: POST Response-Code: 200 
+Request-Time: 13.07.2022 21:00:51 Request-Path: /api/v1/transaction/by_doc_number Request-Method: OPTIONS Response-Code: 204 
+Request-Time: 13.07.2022 21:00:51 Request-Path: /api/v1/transaction/by_doc_number Request-Method: POST Response-Code: 200 
+Request-Time: 13.07.2022 21:00:56 Request-Path: /api/v1/transaction/by_doc_number Request-Method: POST Response-Code: 200 
+Request-Time: 13.07.2022 21:00:56 Request-Path: /api/v1/transaction/by_doc_number Request-Method: POST Response-Code: 200 
+Request-Time: 13.07.2022 21:01:08 Request-Path: /api/v1/transaction/by_doc_number Request-Method: OPTIONS Response-Code: 204 
+Request-Time: 13.07.2022 21:01:08 Request-Path: /api/v1/transaction/by_doc_number Request-Method: POST Response-Code: 200 
+Request-Time: 13.07.2022 21:05:06 Request-Path: /api/v1/transaction/by_ticket_number Request-Method: OPTIONS Response-Code: 204 
+Request-Time: 13.07.2022 21:05:06 Request-Path: /api/v1/transaction/by_ticket_number Request-Method: POST Response-Code: 200 
+Request-Time: 13.07.2022 21:05:51 Request-Path: /api/v1/transaction/by_ticket_number Request-Method: OPTIONS Response-Code: 204 
+Request-Time: 13.07.2022 21:05:51 Request-Path: /api/v1/transaction/by_ticket_number Request-Method: POST Response-Code: 200 
+Request-Time: 13.07.2022 21:06:02 Request-Path: /api/v1/transaction/by_ticket_number Request-Method: OPTIONS Response-Code: 204 
+Request-Time: 13.07.2022 21:06:03 Request-Path: /api/v1/transaction/by_ticket_number Request-Method: POST Response-Code: 200 
+Request-Time: 13.07.2022 21:07:36 Request-Path: /api/v1/transaction/by_ticket_number Request-Method: OPTIONS Response-Code: 204 
+Request-Time: 13.07.2022 21:07:36 Request-Path: /api/v1/transaction/by_ticket_number Request-Method: POST Response-Code: 200 
+Request-Time: 13.07.2022 21:07:46 Request-Path: /api/v1/transaction/by_ticket_number Request-Method: OPTIONS Response-Code: 204 
+Request-Time: 13.07.2022 21:07:46 Request-Path: /api/v1/transaction/by_ticket_number Request-Method: POST Response-Code: 200 
+Request-Time: 13.07.2022 21:07:51 Request-Path: /api/v1/transaction/by_ticket_number Request-Method: OPTIONS Response-Code: 204 
+Request-Time: 13.07.2022 21:07:51 Request-Path: /api/v1/transaction/by_ticket_number Request-Method: POST Response-Code: 200 
+Request-Time: 13.07.2022 21:08:01 Request-Path: /api/v1/transaction/by_ticket_number Request-Method: OPTIONS Response-Code: 204 
+Request-Time: 13.07.2022 21:08:01 Request-Path: /api/v1/transaction/by_ticket_number Request-Method: POST Response-Code: 200 
+Request-Time: 13.07.2022 21:08:08 Request-Path: /api/v1/transaction/by_doc_number Request-Method: OPTIONS Response-Code: 204 
+Request-Time: 13.07.2022 21:08:08 Request-Path: /api/v1/transaction/by_doc_number Request-Method: POST Response-Code: 200 
+Request-Time: 13.07.2022 21:09:36 Request-Path: /api/v1/transaction/by_ticket_number Request-Method: OPTIONS Response-Code: 204 
+Request-Time: 13.07.2022 21:09:36 Request-Path: /api/v1/transaction/by_ticket_number Request-Method: POST Response-Code: 200 
+Request-Time: 13.07.2022 21:14:33 Request-Path: /api/v1/transaction/by_doc_number Request-Method: OPTIONS Response-Code: 204 
+Request-Time: 13.07.2022 21:14:33 Request-Path: /api/v1/transaction/by_doc_number Request-Method: POST Response-Code: 200 
+Request-Time: 13.07.2022 21:14:40 Request-Path: /api/v1/transaction/by_doc_number Request-Method: OPTIONS Response-Code: 204 
+Request-Time: 13.07.2022 21:14:40 Request-Path: /api/v1/transaction/by_doc_number Request-Method: POST Response-Code: 200 
+Request-Time: 13.07.2022 21:14:40 Request-Path: /api/v1/transaction/by_doc_number Request-Method: POST Response-Code: 200 
+Request-Time: 13.07.2022 21:14:50 Request-Path: /api/v1/transaction/by_doc_number Request-Method: OPTIONS Response-Code: 204 
+Request-Time: 13.07.2022 21:14:50 Request-Path: /api/v1/transaction/by_doc_number Request-Method: POST Response-Code: 200 
+Request-Time: 14.07.2022 14:49:49 Request-Path: /api/v1/transaction/by_ticket_number Request-Method: OPTIONS Response-Code: 204 
+Request-Time: 14.07.2022 14:49:51 Request-Path: /api/v1/transaction/by_ticket_number Request-Method: POST Response-Code: 200 
+Request-Time: 14.07.2022 14:55:28 Request-Path: /api/v1/transaction/by_ticket_number Request-Method: OPTIONS Response-Code: 204 
+Request-Time: 14.07.2022 14:55:29 Request-Path: /api/v1/transaction/by_ticket_number Request-Method: POST Response-Code: 200 
+Request-Time: 14.07.2022 14:55:33 Request-Path: /api/v1/transaction/by_ticket_number Request-Method: POST Response-Code: 200 
+Request-Time: 14.07.2022 14:55:41 Request-Path: /api/v1/transaction/by_doc_number Request-Method: OPTIONS Response-Code: 204 
+Request-Time: 14.07.2022 14:55:41 Request-Path: /api/v1/transaction/by_doc_number Request-Method: POST Response-Code: 200 
+Request-Time: 14.07.2022 14:55:43 Request-Path: /api/v1/transaction/by_doc_number Request-Method: POST Response-Code: 200 
+Request-Time: 14.07.2022 14:55:50 Request-Path: /api/v1/transaction/by_doc_number Request-Method: OPTIONS Response-Code: 204 
+Request-Time: 14.07.2022 14:55:50 Request-Path: /api/v1/transaction/by_doc_number Request-Method: POST Response-Code: 200 
+Request-Time: 14.07.2022 14:55:53 Request-Path: /api/v1/transaction/by_doc_number Request-Method: POST Response-Code: 200 
+Request-Time: 14.07.2022 14:55:54 Request-Path: /api/v1/transaction/by_doc_number Request-Method: POST Response-Code: 200 
+Request-Time: 14.07.2022 14:56:03 Request-Path: /api/v1/transaction/by_ticket_number Request-Method: OPTIONS Response-Code: 204 
+Request-Time: 14.07.2022 14:56:03 Request-Path: /api/v1/transaction/by_ticket_number Request-Method: POST Response-Code: 200 
+Request-Time: 14.07.2022 15:20:41 Request-Path: /api/v1/transaction/by_doc_number Request-Method: OPTIONS Response-Code: 204 
+Request-Time: 14.07.2022 15:20:41 Request-Path: /api/v1/transaction/by_doc_number Request-Method: POST Response-Code: 200 
+Request-Time: 14.07.2022 15:20:47 Request-Path: /api/v1/transaction/by_doc_number Request-Method: OPTIONS Response-Code: 204 
+Request-Time: 14.07.2022 15:20:47 Request-Path: /api/v1/transaction/by_doc_number Request-Method: POST Response-Code: 200 
+Request-Time: 14.07.2022 15:20:47 Request-Path: /api/v1/transaction/by_doc_number Request-Method: POST Response-Code: 200 
+Request-Time: 14.07.2022 15:20:51 Request-Path: /api/v1/transaction/by_doc_number Request-Method: POST Response-Code: 200 
+Request-Time: 14.07.2022 15:20:51 Request-Path: /api/v1/transaction/by_doc_number Request-Method: POST Response-Code: 200 
+Request-Time: 14.07.2022 15:22:48 Request-Path: /api/v1/transaction/by_doc_number Request-Method: OPTIONS Response-Code: 204 
+Request-Time: 14.07.2022 15:22:49 Request-Path: /api/v1/transaction/by_doc_number Request-Method: POST Response-Code: 200 
+Request-Time: 14.07.2022 15:22:49 Request-Path: /api/v1/transaction/by_doc_number Request-Method: POST Response-Code: 200 
+Request-Time: 14.07.2022 15:24:14 Request-Path: /api/v1/transaction/by_doc_number Request-Method: OPTIONS Response-Code: 204 
+Request-Time: 14.07.2022 15:24:14 Request-Path: /api/v1/transaction/by_doc_number Request-Method: POST Response-Code: 200 
+Request-Time: 14.07.2022 15:25:06 Request-Path: /api/v1/transaction/by_ticket_number Request-Method: OPTIONS Response-Code: 204 
+Request-Time: 14.07.2022 15:25:06 Request-Path: /api/v1/transaction/by_ticket_number Request-Method: POST Response-Code: 200 
+Request-Time: 14.07.2022 15:25:12 Request-Path: /api/v1/transaction/by_doc_number Request-Method: OPTIONS Response-Code: 204 
+Request-Time: 14.07.2022 15:25:12 Request-Path: /api/v1/transaction/by_doc_number Request-Method: POST Response-Code: 200 
+Request-Time: 14.07.2022 15:25:14 Request-Path: /api/v1/transaction/by_ticket_number Request-Method: OPTIONS Response-Code: 204 
+Request-Time: 14.07.2022 15:25:14 Request-Path: /api/v1/transaction/by_ticket_number Request-Method: POST Response-Code: 200 
+Request-Time: 14.07.2022 15:25:18 Request-Path: /api/v1/transaction/by_doc_number Request-Method: OPTIONS Response-Code: 204 
+Request-Time: 14.07.2022 15:25:18 Request-Path: /api/v1/transaction/by_doc_number Request-Method: POST Response-Code: 200 
+Request-Time: 14.07.2022 15:25:20 Request-Path: /api/v1/transaction/by_ticket_number Request-Method: OPTIONS Response-Code: 204 
+Request-Time: 14.07.2022 15:25:20 Request-Path: /api/v1/transaction/by_ticket_number Request-Method: POST Response-Code: 200 
+Request-Time: 14.07.2022 16:13:04 Request-Path: /api/v1/transaction/by_doc_number Request-Method: OPTIONS Response-Code: 204 
+Request-Time: 14.07.2022 16:13:05 Request-Path: /api/v1/transaction/by_doc_number Request-Method: POST Response-Code: 200 
+Request-Time: 14.07.2022 16:14:15 Request-Path: /api/v1/transaction/by_doc_number Request-Method: OPTIONS Response-Code: 204 
+Request-Time: 14.07.2022 16:14:15 Request-Path: /api/v1/transaction/by_doc_number Request-Method: POST Response-Code: 200 
+Request-Time: 14.07.2022 16:15:07 Request-Path: /api/v1/transaction/by_doc_number Request-Method: OPTIONS Response-Code: 204 
+Request-Time: 14.07.2022 16:15:07 Request-Path: /api/v1/transaction/by_doc_number Request-Method: POST Response-Code: 200 
+Request-Time: 14.07.2022 16:15:52 Request-Path: /api/v1/transaction/by_doc_number Request-Method: OPTIONS Response-Code: 204 
+Request-Time: 14.07.2022 16:15:52 Request-Path: /api/v1/transaction/by_doc_number Request-Method: POST Response-Code: 200 
+Request-Time: 14.07.2022 16:17:04 Request-Path: /api/v1/transaction/by_doc_number Request-Method: OPTIONS Response-Code: 204 
+Request-Time: 14.07.2022 16:17:04 Request-Path: /api/v1/transaction/by_doc_number Request-Method: POST Response-Code: 200 
+Request-Time: 14.07.2022 16:17:40 Request-Path: /api/v1/transaction/by_doc_number Request-Method: OPTIONS Response-Code: 204 
+Request-Time: 14.07.2022 16:17:40 Request-Path: /api/v1/transaction/by_doc_number Request-Method: POST Response-Code: 200 
+Request-Time: 14.07.2022 16:17:55 Request-Path: /api/v1/transaction/by_doc_number Request-Method: OPTIONS Response-Code: 204 
+Request-Time: 14.07.2022 16:17:55 Request-Path: /api/v1/transaction/by_doc_number Request-Method: POST Response-Code: 200 
+Request-Time: 14.07.2022 16:19:11 Request-Path: /api/v1/transaction/by_doc_number Request-Method: OPTIONS Response-Code: 204 
+Request-Time: 14.07.2022 16:19:11 Request-Path: /api/v1/transaction/by_doc_number Request-Method: POST Response-Code: 200 
+Request-Time: 14.07.2022 16:22:48 Request-Path: /api/v1/transaction/by_doc_number Request-Method: OPTIONS Response-Code: 204 
+Request-Time: 14.07.2022 16:22:48 Request-Path: /api/v1/transaction/by_doc_number Request-Method: POST Response-Code: 200 
+Request-Time: 14.07.2022 16:24:32 Request-Path: /api/v1/transaction/by_doc_number Request-Method: OPTIONS Response-Code: 204 
+Request-Time: 14.07.2022 16:24:32 Request-Path: /api/v1/transaction/by_doc_number Request-Method: POST Response-Code: 200 
+Request-Time: 14.07.2022 16:24:37 Request-Path: /api/v1/transaction/by_doc_number Request-Method: OPTIONS Response-Code: 204 
+Request-Time: 14.07.2022 16:24:37 Request-Path: /api/v1/transaction/by_doc_number Request-Method: POST Response-Code: 200 
+Request-Time: 14.07.2022 16:25:24 Request-Path: /api/v1/transaction/by_doc_number Request-Method: OPTIONS Response-Code: 204 
+Request-Time: 14.07.2022 16:25:24 Request-Path: /api/v1/transaction/by_doc_number Request-Method: POST Response-Code: 200 
+Request-Time: 14.07.2022 16:25:53 Request-Path: /api/v1/transaction/by_doc_number Request-Method: OPTIONS Response-Code: 204 
+Request-Time: 14.07.2022 16:25:54 Request-Path: /api/v1/transaction/by_doc_number Request-Method: POST Response-Code: 200 
+Request-Time: 14.07.2022 16:27:20 Request-Path: /api/v1/transaction/by_doc_number Request-Method: OPTIONS Response-Code: 204 
+Request-Time: 14.07.2022 16:27:20 Request-Path: /api/v1/transaction/by_doc_number Request-Method: POST Response-Code: 200 
+Request-Time: 14.07.2022 16:28:29 Request-Path: /api/v1/transaction/by_doc_number Request-Method: OPTIONS Response-Code: 204 
+Request-Time: 14.07.2022 16:28:29 Request-Path: /api/v1/transaction/by_doc_number Request-Method: POST Response-Code: 200 
+Request-Time: 14.07.2022 16:28:51 Request-Path: /api/v1/transaction/by_doc_number Request-Method: OPTIONS Response-Code: 204 
+Request-Time: 14.07.2022 16:28:51 Request-Path: /api/v1/transaction/by_doc_number Request-Method: POST Response-Code: 200 
+Request-Time: 14.07.2022 16:36:04 Request-Path: /api/v1/transaction/by_ticket_number Request-Method: OPTIONS Response-Code: 204 
+Request-Time: 14.07.2022 16:36:04 Request-Path: /api/v1/transaction/by_ticket_number Request-Method: POST Response-Code: 200 
+Request-Time: 14.07.2022 16:36:25 Request-Path: /api/v1/transaction/by_ticket_number Request-Method: OPTIONS Response-Code: 204 
+Request-Time: 14.07.2022 16:36:25 Request-Path: /api/v1/transaction/by_ticket_number Request-Method: POST Response-Code: 200 
+Request-Time: 14.07.2022 16:37:05 Request-Path: /api/v1/transaction/by_doc_number Request-Method: OPTIONS Response-Code: 204 
+Request-Time: 14.07.2022 16:37:05 Request-Path: /api/v1/transaction/by_doc_number Request-Method: POST Response-Code: 200 
+Request-Time: 14.07.2022 16:41:38 Request-Path: /api/v1/transaction/by_doc_number Request-Method: OPTIONS Response-Code: 204 
+Request-Time: 14.07.2022 16:41:38 Request-Path: /api/v1/transaction/by_doc_number Request-Method: POST Response-Code: 200 
+Request-Time: 14.07.2022 16:42:44 Request-Path: /api/v1/transaction/by_doc_number Request-Method: OPTIONS Response-Code: 204 
+Request-Time: 14.07.2022 16:42:44 Request-Path: /api/v1/transaction/by_doc_number Request-Method: POST Response-Code: 200 
+Request-Time: 14.07.2022 16:43:16 Request-Path: /api/v1/transaction/by_doc_number Request-Method: OPTIONS Response-Code: 204 
+Request-Time: 14.07.2022 16:43:16 Request-Path: /api/v1/transaction/by_doc_number Request-Method: POST Response-Code: 200 
+Request-Time: 14.07.2022 16:43:35 Request-Path: /api/v1/transaction/by_doc_number Request-Method: OPTIONS Response-Code: 204 
+Request-Time: 14.07.2022 16:43:36 Request-Path: /api/v1/transaction/by_doc_number Request-Method: POST Response-Code: 200 
+Request-Time: 14.07.2022 16:43:48 Request-Path: /api/v1/transaction/by_doc_number Request-Method: OPTIONS Response-Code: 204 
+Request-Time: 14.07.2022 16:43:48 Request-Path: /api/v1/transaction/by_doc_number Request-Method: POST Response-Code: 200 
+Request-Time: 14.07.2022 16:45:00 Request-Path: /api/v1/transaction/by_doc_number Request-Method: OPTIONS Response-Code: 204 
+Request-Time: 14.07.2022 16:45:00 Request-Path: /api/v1/transaction/by_doc_number Request-Method: POST Response-Code: 200 
+Request-Time: 14.07.2022 16:47:13 Request-Path: /api/v1/transaction/by_doc_number Request-Method: OPTIONS Response-Code: 204 
+Request-Time: 14.07.2022 16:47:13 Request-Path: /api/v1/transaction/by_doc_number Request-Method: POST Response-Code: 200 
+Request-Time: 14.07.2022 16:47:40 Request-Path: /api/v1/transaction/by_doc_number Request-Method: OPTIONS Response-Code: 204 
+Request-Time: 14.07.2022 16:47:40 Request-Path: /api/v1/transaction/by_doc_number Request-Method: POST Response-Code: 200 
+Request-Time: 14.07.2022 16:47:57 Request-Path: /api/v1/transaction/by_doc_number Request-Method: OPTIONS Response-Code: 204 
+Request-Time: 14.07.2022 16:47:57 Request-Path: /api/v1/transaction/by_doc_number Request-Method: POST Response-Code: 200 
+Request-Time: 14.07.2022 16:48:08 Request-Path: /api/v1/transaction/by_doc_number Request-Method: OPTIONS Response-Code: 204 
+Request-Time: 14.07.2022 16:48:08 Request-Path: /api/v1/transaction/by_doc_number Request-Method: POST Response-Code: 200 
+Request-Time: 14.07.2022 16:48:56 Request-Path: /api/v1/transaction/by_doc_number Request-Method: OPTIONS Response-Code: 204 
+Request-Time: 14.07.2022 16:48:56 Request-Path: /api/v1/transaction/by_doc_number Request-Method: POST Response-Code: 200 
+Request-Time: 14.07.2022 16:49:20 Request-Path: /api/v1/transaction/by_doc_number Request-Method: OPTIONS Response-Code: 204 
+Request-Time: 14.07.2022 16:49:20 Request-Path: /api/v1/transaction/by_doc_number Request-Method: POST Response-Code: 200 
+Request-Time: 14.07.2022 16:49:38 Request-Path: /api/v1/transaction/by_doc_number Request-Method: OPTIONS Response-Code: 204 
+Request-Time: 14.07.2022 16:49:38 Request-Path: /api/v1/transaction/by_doc_number Request-Method: POST Response-Code: 200 
+Request-Time: 14.07.2022 16:53:00 Request-Path: /api/v1/transaction/by_doc_number Request-Method: OPTIONS Response-Code: 204 
+Request-Time: 14.07.2022 16:53:00 Request-Path: /api/v1/transaction/by_doc_number Request-Method: POST Response-Code: 200 
+Request-Time: 14.07.2022 16:53:57 Request-Path: /api/v1/transaction/by_doc_number Request-Method: OPTIONS Response-Code: 204 
+Request-Time: 14.07.2022 16:53:57 Request-Path: /api/v1/transaction/by_doc_number Request-Method: POST Response-Code: 200 
+Request-Time: 14.07.2022 16:59:38 Request-Path: /api/v1/transaction/by_doc_number Request-Method: OPTIONS Response-Code: 204 
+Request-Time: 14.07.2022 16:59:38 Request-Path: /api/v1/transaction/by_doc_number Request-Method: POST Response-Code: 200 
+Request-Time: 14.07.2022 16:59:59 Request-Path: /api/v1/transaction/by_doc_number Request-Method: OPTIONS Response-Code: 204 
+Request-Time: 14.07.2022 16:59:59 Request-Path: /api/v1/transaction/by_doc_number Request-Method: POST Response-Code: 200 
+Request-Time: 14.07.2022 17:00:59 Request-Path: /api/v1/transaction/by_doc_number Request-Method: OPTIONS Response-Code: 204 
+Request-Time: 14.07.2022 17:00:59 Request-Path: /api/v1/transaction/by_doc_number Request-Method: POST Response-Code: 200 
+Request-Time: 14.07.2022 17:01:21 Request-Path: /api/v1/transaction/by_doc_number Request-Method: OPTIONS Response-Code: 204 
+Request-Time: 14.07.2022 17:01:21 Request-Path: /api/v1/transaction/by_doc_number Request-Method: POST Response-Code: 200 
+Request-Time: 14.07.2022 17:03:17 Request-Path: /api/v1/transaction/by_doc_number Request-Method: OPTIONS Response-Code: 204 
+Request-Time: 14.07.2022 17:03:17 Request-Path: /api/v1/transaction/by_doc_number Request-Method: POST Response-Code: 200 
+Request-Time: 14.07.2022 17:09:49 Request-Path: /api/v1/transaction/by_doc_number Request-Method: OPTIONS Response-Code: 204 
+Request-Time: 14.07.2022 17:09:49 Request-Path: /api/v1/transaction/by_doc_number Request-Method: POST Response-Code: 200 
+Request-Time: 14.07.2022 17:16:22 Request-Path: /api/v1/transaction/by_doc_number Request-Method: OPTIONS Response-Code: 204 
+Request-Time: 14.07.2022 17:16:22 Request-Path: /api/v1/transaction/by_doc_number Request-Method: POST Response-Code: 200 
+Request-Time: 14.07.2022 17:32:40 Request-Path: /api/v1/transaction/by_ticket_number Request-Method: OPTIONS Response-Code: 204 
+Request-Time: 14.07.2022 17:32:40 Request-Path: /api/v1/transaction/by_ticket_number Request-Method: POST Response-Code: 200 
+Request-Time: 14.07.2022 18:56:00 Request-Path: /api/v1/transaction/by_doc_number_print Request-Method: POST Response-Code: 200 
+Request-Time: 14.07.2022 18:59:18 Request-Path: /api/v1/transaction/by_doc_number Request-Method: OPTIONS Response-Code: 204 
+Request-Time: 14.07.2022 18:59:19 Request-Path: /api/v1/transaction/by_doc_number Request-Method: POST Response-Code: 200 
+Request-Time: 14.07.2022 18:59:55 Request-Path: /api/v1/transaction/by_doc_number Request-Method: OPTIONS Response-Code: 204 
+Request-Time: 14.07.2022 18:59:55 Request-Path: /api/v1/transaction/by_doc_number Request-Method: POST Response-Code: 200 
+Request-Time: 14.07.2022 19:57:09 Request-Path: /api/v1/transaction/by_doc_number_print Request-Method: POST Response-Code: 406 
+Request-Time: 14.07.2022 19:57:25 Request-Path: /api/v1/transaction/by_doc_number_print Request-Method: POST Response-Code: 406 
+Request-Time: 14.07.2022 20:16:26 Request-Path: /api/v1/transaction/by_doc_number_print Request-Method: POST Response-Code: 200 
+Request-Time: 14.07.2022 20:17:48 Request-Path: /api/v1/transaction/by_doc_number_print Request-Method: POST Response-Code: 200 
+Request-Time: 14.07.2022 20:18:21 Request-Path: /api/v1/transaction/by_doc_number_print Request-Method: POST Response-Code: 200 
+Request-Time: 14.07.2022 20:23:52 Request-Path: /api/v1/transaction/by_ticket_number_print Request-Method: POST Response-Code: 200 
+Request-Time: 14.07.2022 20:24:33 Request-Path: /api/v1/transaction/by_ticket_number_print Request-Method: POST Response-Code: 200 
+Request-Time: 14.07.2022 20:24:46 Request-Path: /api/v1/transaction/by_ticket_number_print Request-Method: POST Response-Code: 200 
+Request-Time: 14.07.2022 20:35:19 Request-Path: /api/v1/transaction/by_ticket_number_print Request-Method: POST Response-Code: 200 
+Request-Time: 14.07.2022 20:35:58 Request-Path: /api/v1/transaction/by_ticket_number_print Request-Method: POST Response-Code: 200 
+Request-Time: 14.07.2022 20:37:02 Request-Path: /api/v1/transaction/by_ticket_number_print Request-Method: POST Response-Code: 200 
+Request-Time: 14.07.2022 20:39:17 Request-Path: /api/v1/transaction/by_doc_number_print Request-Method: POST Response-Code: 200 
+Request-Time: 14.07.2022 20:40:51 Request-Path: /api/v1/transaction/by_ticket_number Request-Method: POST Response-Code: 200 
+Request-Time: 14.07.2022 20:41:02 Request-Path: /api/v1/transaction/by_ticket_number_print Request-Method: POST Response-Code: 200 
+Request-Time: 14.07.2022 20:41:44 Request-Path: /api/v1/transaction/by_doc_number Request-Method: OPTIONS Response-Code: 204 
+Request-Time: 14.07.2022 20:41:44 Request-Path: /api/v1/transaction/by_doc_number Request-Method: POST Response-Code: 200 
+Request-Time: 14.07.2022 20:41:46 Request-Path: /api/v1/transaction/by_doc_number_print Request-Method: OPTIONS Response-Code: 204 
+Request-Time: 14.07.2022 20:41:47 Request-Path: /api/v1/transaction/by_doc_number_print Request-Method: POST Response-Code: 200 
+Request-Time: 14.07.2022 20:43:07 Request-Path: /api/v1/transaction/by_doc_number_print Request-Method: OPTIONS Response-Code: 204 
+Request-Time: 14.07.2022 20:43:07 Request-Path: /api/v1/transaction/by_doc_number_print Request-Method: POST Response-Code: 200 
+Request-Time: 14.07.2022 20:43:29 Request-Path: /api/v1/transaction/by_doc_number_print Request-Method: POST Response-Code: 200 
+Request-Time: 14.07.2022 20:46:37 Request-Path: /api/v1/transaction/by_doc_number Request-Method: OPTIONS Response-Code: 204 
+Request-Time: 14.07.2022 20:46:38 Request-Path: /api/v1/transaction/by_doc_number Request-Method: POST Response-Code: 200 
+Request-Time: 14.07.2022 20:46:40 Request-Path: /api/v1/transaction/by_doc_number_print Request-Method: OPTIONS Response-Code: 204 
+Request-Time: 14.07.2022 20:46:40 Request-Path: /api/v1/transaction/by_doc_number_print Request-Method: POST Response-Code: 200 
+Request-Time: 14.07.2022 20:49:52 Request-Path: /api/v1/transaction/by_doc_number Request-Method: OPTIONS Response-Code: 204 
+Request-Time: 14.07.2022 20:49:52 Request-Path: /api/v1/transaction/by_doc_number Request-Method: POST Response-Code: 200 
+Request-Time: 14.07.2022 20:49:52 Request-Path: /api/v1/transaction/by_doc_number_print Request-Method: OPTIONS Response-Code: 204 
+Request-Time: 14.07.2022 20:49:52 Request-Path: /api/v1/transaction/by_doc_number_print Request-Method: POST Response-Code: 200 
+Request-Time: 14.07.2022 20:51:18 Request-Path: /api/v1/transaction/by_doc_number Request-Method: OPTIONS Response-Code: 204 
+Request-Time: 14.07.2022 20:51:18 Request-Path: /api/v1/transaction/by_doc_number Request-Method: POST Response-Code: 200 
+Request-Time: 14.07.2022 20:51:22 Request-Path: /api/v1/transaction/by_doc_number Request-Method: POST Response-Code: 200 
+Request-Time: 14.07.2022 20:51:28 Request-Path: /api/v1/transaction/by_doc_number_print Request-Method: OPTIONS Response-Code: 204 
+Request-Time: 14.07.2022 20:51:28 Request-Path: /api/v1/transaction/by_doc_number_print Request-Method: POST Response-Code: 200 
+Request-Time: 14.07.2022 20:58:19 Request-Path: /api/v1/transaction/by_doc_number_print Request-Method: POST Response-Code: 200 
+Request-Time: 14.07.2022 20:59:13 Request-Path: /api/v1/transaction/by_doc_number_print Request-Method: POST Response-Code: 200 
+Request-Time: 14.07.2022 20:59:37 Request-Path: /api/v1/transaction/by_doc_number_print Request-Method: POST Response-Code: 200 
+Request-Time: 14.07.2022 21:00:03 Request-Path: /api/v1/transaction/by_doc_number_print Request-Method: POST Response-Code: 200 
+Request-Time: 14.07.2022 21:00:20 Request-Path: /api/v1/transaction/by_doc_number Request-Method: OPTIONS Response-Code: 204 
+Request-Time: 14.07.2022 21:00:20 Request-Path: /api/v1/transaction/by_doc_number Request-Method: POST Response-Code: 200 
+Request-Time: 14.07.2022 21:00:22 Request-Path: /api/v1/transaction/by_doc_number_print Request-Method: OPTIONS Response-Code: 204 
+Request-Time: 14.07.2022 21:00:22 Request-Path: /api/v1/transaction/by_doc_number_print Request-Method: POST Response-Code: 200 
+Request-Time: 14.07.2022 21:12:13 Request-Path: /api/v1/transaction/by_ticket_number Request-Method: OPTIONS Response-Code: 204 
+Request-Time: 14.07.2022 21:12:14 Request-Path: /api/v1/transaction/by_ticket_number Request-Method: POST Response-Code: 200 
+Request-Time: 14.07.2022 21:28:58 Request-Path: /api/v1/transaction/by_ticket_number_print Request-Method: POST Response-Code: 200 
+Request-Time: 14.07.2022 21:29:36 Request-Path: /api/v1/transaction/by_doc_number_print Request-Method: POST Response-Code: 200 
+Request-Time: 14.07.2022 22:10:18 Request-Path: /api/v1/transaction/by_doc_number Request-Method: OPTIONS Response-Code: 204 
+Request-Time: 14.07.2022 22:10:18 Request-Path: /api/v1/transaction/by_doc_number Request-Method: POST Response-Code: 200 
+Request-Time: 14.07.2022 22:10:19 Request-Path: /api/v1/transaction/by_doc_number_print Request-Method: OPTIONS Response-Code: 204 
+Request-Time: 14.07.2022 22:10:19 Request-Path: /api/v1/transaction/by_doc_number_print Request-Method: POST Response-Code: 200 
+Request-Time: 14.07.2022 22:10:39 Request-Path: /api/v1/transaction/by_doc_number Request-Method: OPTIONS Response-Code: 204 
+Request-Time: 14.07.2022 22:10:39 Request-Path: /api/v1/transaction/by_doc_number Request-Method: POST Response-Code: 200 
+Request-Time: 14.07.2022 22:10:43 Request-Path: /api/v1/transaction/by_doc_number Request-Method: POST Response-Code: 200 
+Request-Time: 14.07.2022 22:10:43 Request-Path: /api/v1/transaction/by_doc_number Request-Method: POST Response-Code: 200 
+Request-Time: 14.07.2022 22:14:47 Request-Path: /api/v1/transaction/by_doc_number Request-Method: OPTIONS Response-Code: 204 
+Request-Time: 14.07.2022 22:14:50 Request-Path: /api/v1/transaction/by_doc_number Request-Method: POST Response-Code: 200 
+Request-Time: 14.07.2022 22:17:24 Request-Path: /api/v1/transaction/by_doc_number_print Request-Method: OPTIONS Response-Code: 204 
+Request-Time: 14.07.2022 22:17:25 Request-Path: /api/v1/transaction/by_doc_number_print Request-Method: POST Response-Code: 200 
+Request-Time: 14.07.2022 22:18:08 Request-Path: /api/v1/transaction/by_doc_number_print Request-Method: OPTIONS Response-Code: 204 
+Request-Time: 14.07.2022 22:18:11 Request-Path: /api/v1/transaction/by_doc_number Request-Method: OPTIONS Response-Code: 204 
+Request-Time: 14.07.2022 22:18:12 Request-Path: /api/v1/transaction/by_doc_number_print Request-Method: POST Response-Code: 200 
+Request-Time: 14.07.2022 22:18:12 Request-Path: /api/v1/transaction/by_doc_number Request-Method: POST Response-Code: 200 
+Request-Time: 14.07.2022 22:18:17 Request-Path: /api/v1/transaction/by_doc_number Request-Method: OPTIONS Response-Code: 204 
+Request-Time: 14.07.2022 22:18:17 Request-Path: /api/v1/transaction/by_doc_number Request-Method: POST Response-Code: 200 
+Request-Time: 14.07.2022 22:18:31 Request-Path: /api/v1/transaction/by_ticket_number_print Request-Method: POST Response-Code: 200 
+Request-Time: 14.07.2022 22:18:34 Request-Path: /api/v1/transaction/by_ticket_number_print Request-Method: POST Response-Code: 200 
+Request-Time: 14.07.2022 22:20:20 Request-Path: /api/v1/transaction/by_doc_number Request-Method: OPTIONS Response-Code: 204 
+Request-Time: 14.07.2022 22:20:23 Request-Path: /api/v1/transaction/by_doc_number Request-Method: POST Response-Code: 200 
+Request-Time: 14.07.2022 22:20:38 Request-Path: /api/v1/transaction/by_doc_number_print Request-Method: OPTIONS Response-Code: 204 
+Request-Time: 14.07.2022 22:20:39 Request-Path: /api/v1/transaction/by_doc_number_print Request-Method: POST Response-Code: 200 
+Request-Time: 14.07.2022 22:32:56 Request-Path: /api/v1/transaction/by_doc_number Request-Method: OPTIONS Response-Code: 204 
+Request-Time: 14.07.2022 22:32:56 Request-Path: /api/v1/transaction/by_doc_number Request-Method: POST Response-Code: 200 
+Request-Time: 14.07.2022 22:32:57 Request-Path: /api/v1/transaction/by_doc_number_print Request-Method: OPTIONS Response-Code: 204 
+Request-Time: 14.07.2022 22:32:57 Request-Path: /api/v1/transaction/by_doc_number_print Request-Method: POST Response-Code: 200 
+Request-Time: 15.07.2022 17:29:29 Request-Path: /api/v1/transaction/by_doc_number Request-Method: POST Response-Code: 200 
+Request-Time: 15.07.2022 17:31:48 Request-Path: /api/v1/transaction/by_ticket_number Request-Method: POST Response-Code: 200 
+Request-Time: 15.07.2022 17:59:21 Request-Path: /api/v1/transaction/by_ticket_number Request-Method: POST Response-Code: 200 
+Request-Time: 15.07.2022 18:00:18 Request-Path: /api/v1/transaction/by_doc_number_print Request-Method: POST Response-Code: 406 
+Request-Time: 15.07.2022 18:00:22 Request-Path: /api/v1/transaction/by_doc_number_print Request-Method: POST Response-Code: 406 

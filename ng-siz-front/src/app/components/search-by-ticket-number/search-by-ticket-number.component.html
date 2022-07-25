@@ -1,0 +1,12 @@
+<div class="app-search-by-ticket-number">
+  <h2 class="by_ticket_number_h2" id="by_ticket_number_header">По номеру билета</h2>
+  <label for="by_ticket_number_input_label" class="by_ticket_number_input_label">Серия и номер билета</label>
+  <input type ="text" required pattern="[a-zA-Z0-9]{13}" [(ngModel)]="ticInput" #ticValue="ngModel" id="by_ticket_number_input" (click)="clearDocNumberInput()" class="by_ticket_number_input" >
+  <div class="by_ticket_number_checkbox_container">
+    <input [disabled]="ticValue.invalid" checked=true type="checkbox"   class="by_ticket_number_checkbox" id="by_ticket_number_checkbox">
+    <label for="by_ticket_number_checkbox" class="by_ticket_number_checkbox_label" id ="by_ticket_number_checkbox_label">Все билеты пассажира</label>
+  </div>
+  <button [disabled]="ticValue.invalid || ticValue.value == ''" class="by_ticket_number_button" (click)="getByTicketNumber()" id="by_ticket_number_button">Найти</button>
+  
+</div>
+

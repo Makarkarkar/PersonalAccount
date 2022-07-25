@@ -1,0 +1,178 @@
+﻿WITH data_all AS NOT MATERIALIZED 
+(
+SELECT operation.id AS operation_id,
+       operation.type,
+       operation.time AT TIME ZONE (operation_time_timezone)::TEXT AS original_operation_time,
+       operation.time AS utc_time,
+       translate(operation.operation_time_timezone::TEXT,'+-','-+') AS original_operation_time_timezone,
+		 operation.place,
+       operation.sender,
+       operation.transaction_time,
+       operation.validation_status,
+       operation.passenger_id AS passenger_id,
+       passenger.surname,
+       passenger.name,
+       passenger.patronymic,
+       passenger.birthdate,
+       passenger.gender_id,
+       passenger_document.id AS passenger_document_id,
+       passenger_document.type AS passenger_document_type,
+       passenger_document.number AS passenger_document_number,
+       (SELECT passenger_document_disabled.number 
+		  FROM passenger_document AS passenger_document_disabled,
+		       operation_document AS operation_document_disabled  
+		  WHERE passenger_document_disabled.TYPE = 'disabled' 
+		        AND passenger_document_disabled.passenger_id = passenger.id
+				  AND operation_document_disabled.operation_id = operation.id 
+				  AND operation_document_disabled.document_id = passenger_document_disabled.id) AS passenger_document_disabled_number,
+       (SELECT passenger_document_large.number 
+		  FROM passenger_document AS passenger_document_large,
+		       operation_document AS operation_document_large  
+		  WHERE passenger_document_large.TYPE = 'large' 
+		        AND passenger_document_large.passenger_id = passenger.id
+				  AND operation_document_large.operation_id = operation.id 
+				  AND operation_document_large.document_id = passenger_document_large.id) AS passenger_document_large_number,
+       passenger_type.id AS passenger_type_id,
+       passenger_type.name AS passenger_type_name,
+       passenger_type.type AS passenger_type_type,
+       passenger_type.ra_category,
+       passenger_type.description,
+       passenger_type.is_quota,
+       ticket.id AS ticket_id,
+       ticket.number AS ticket_number,
+       ticket.type AS ticket_type,
+       airline_route.id AS airline_route_id,
+       airline_route.airline_code,
+       airline_route.depart_place,
+       ((airline_route.depart_datetime AT TIME ZONE (airline_route.depart_datetime_timezone)::TEXT))::TIMESTAMP::TEXT || translate(airline_route.depart_datetime_timezone::TEXT,'+-','-+') AS depart_datetime,
+       airline_route.arrive_place,
+       ((airline_route.arrive_datetime AT TIME ZONE (airline_route.arrive_datetime_timezone)::TEXT))::TIMESTAMP::TEXT || translate(airline_route.arrive_datetime_timezone::TEXT,'+-','-+') AS arrive_datetime,
+       airline_route.pnr_id,
+       airline_route.operating_airline_code,
+       translate(airline_route.depart_datetime_timezone::TEXT,'+-','-+') AS depart_datetime_timezone,
+       translate(airline_route.arrive_datetime_timezone::TEXT,'+-','-+') AS arrive_datetime_timezone,
+       city_from.code AS city_from_code,
+       city_from.name AS city_from_name,
+       airport_from.icao_code AS airport_from_icao_code,
+       airport_from.rf_code AS airport_from_rf_code,
+       airport_from.name AS airport_from_name,
+       city_to.code AS city_to_code,
+       city_to.name AS city_to_name,
+       airport_to.icao_code AS airport_to_icao_code,
+       airport_to.rf_code AS airport_to_rf_code,
+       airport_to.name AS airport_to_name,
+       (SELECT CASE 
+		           WHEN airline_route.operating_airline_code IS NOT NULL AND airline_route.operating_airline_code <> airline_route.airline_code
+                   THEN string_agg(concat(airline_route.airline_code, flight_num.marketing_carrier, '(', airline_route.operating_airline_code, flight_num.operating_carrier, ')'), ', ')
+                 ELSE  
+                   string_agg(concat(airline_route.airline_code, flight_num.marketing_carrier), ', ')
+					  END 		 
+		  FROM airline_route_flight_num,
+          	 flight_num
+        WHERE airline_route_flight_num.airline_route_id = airline_route.id
+              AND airline_route_flight_num.flight_num_id = flight_num.id
+        GROUP BY airline_route_flight_num.airline_route_id
+       ) AS flight_nums,
+       (SELECT code 
+		  FROM airline_route_fare,
+             fare 
+		  WHERE airline_route_fare.fare_id = fare.id
+              AND airline_route_fare.airline_route_id = airline_route.id
+              AND fare.passenger_id = passenger.id
+		  ORDER BY fare.id DESC LIMIT 1) AS fare_code,
+       (SELECT price 
+		  FROM airline_route_fare,
+             fare 
+		  WHERE airline_route_fare.fare_id = fare.id
+              AND airline_route_fare.airline_route_id = airline_route.id
+              AND fare.passenger_id = passenger.id
+		  ORDER BY fare.id DESC LIMIT 1) AS fare_price
+from operation,
+     operation_ticket, 
+	 ticket,
+	 operation_route,
+	 airline_route,
+     subsidized_airline_route,
+     city AS city_from,
+     airport AS airport_from,
+     city AS city_to,
+     airport AS airport_to,
+	 passenger,
+	 operation_document,
+	 passenger_document,
+	 operation_passenger_type,
+	 passenger_type
+where operation.transaction_time IS NOT NULL 
+--      AND operation.sender = 'S7'
+--      AND transaction_time >= '2022-04-04 09:00:00'::TIMESTAMP      
+      AND depart_datetime >= '2022-01-01 00:00:00'::TIMESTAMP      
+      AND operation.TYPE <> 'init'
+--      AND validation_status IS NULL
+--      AND (validation_status NOT IN ('invalid_operation_time') OR validation_status IS NULL)
+      AND operation.id = operation_ticket.operation_id
+      AND operation_ticket.ticket_id = ticket.id
+      AND OPERATION.passenger_id = ticket.passenger_id
+      AND OPERATION.id = operation_route.operation_id
+      AND operation_route.airline_route_id = airline_route.id
+      AND subsidized_airline_route.city1 = city_from.name
+      AND airport_from.city = city_from.name
+      AND subsidized_airline_route.city2 = city_to.name
+      AND airport_to.city = city_to.name 
+ 	  AND depart_place = airport_from.iata_code
+	  AND arrive_place = airport_to.iata_code
+	  AND operation.passenger_id = passenger.id
+	  AND ticket.passenger_id = operation.passenger_id
+	  AND operation_document.operation_id = operation.id
+	  AND operation_document.document_id = passenger_document.id
+	  AND passenger_document.passenger_id = passenger.id
+	  AND passenger_document.passenger_id = operation.passenger_id	   
+	  AND ticket.passenger_id = passenger.id
+      AND passenger_document.TYPE NOT IN ('disabled','large')		
+      AND operation_passenger_type.operation_id = operation.id
+      AND operation_passenger_type.passenger_type_id = passenger_type.id
+) 
+SELECT operation_id,
+              type,
+              to_char((((time at time zone(operation_time_timezone)::TEXT))::TIMESTAMP::TEXT)::TIMESTAMP,'DD.MM.YYYY HH:MI:SS')
+              		|| CASE WHEN operation_time_timezone::TEXT = '0' THEN '+' ELSE '' END
+              		|| (translate(operation_time_timezone::TEXT,'+-','-+')::TEXT) || ':00' AS time,
+              case when airline_code='{0}' then place else null end place,
+              case when airline_code='{0}' then sender else null end sender,
+              transaction_time,
+              validation_status,
+              passenger_id,
+              surname,
+              name,
+              patronymic,
+              to_char(birthdate::TIMESTAMP, 'DD.MM.YYYY') AS birthdate,
+              passenger_document_id,
+              passenger_document_type,
+              passenger_document_number,
+              passenger_document_disabled_number,
+              passenger_document_large_number,
+              passenger_type_name,
+              passenger_type_type,
+              ra_category,
+              description,
+              is_quota,
+              case when airline_code='{0}' then ticket_number ELSE '*******'||SUBSTR(ticket_number,8,6)  end ticket_number,
+              ticket_type,
+              case when airline_code='{0}' then airline_code else null end airline_code,
+              case when airline_code='{0}' then depart_place else null end depart_place,
+              to_char((((depart_datetime at time zone(depart_datetime_timezone)::TEXT))::TIMESTAMP::TEXT)::TIMESTAMP,'DD.MM.YYYY HH:MI:SS')
+              		|| CASE WHEN depart_datetime_timezone::TEXT = '0' THEN '+' ELSE '' END
+              		|| (translate(depart_datetime_timezone::TEXT,'+-','-+')::TEXT) || ':00' AS depart_datetime,
+              case WHEN airline_code='{0}' then arrive_place else null end arrive_place,
+              case when airline_code='{0}' then to_char((((arrive_datetime at time zone(arrive_datetime_timezone)::TEXT))::TIMESTAMP::TEXT)::TIMESTAMP,'DD.MM.YYYY HH:MI:SS')
+              		|| CASE WHEN arrive_datetime_timezone::TEXT = '0' THEN '+' ELSE '' END
+              		|| (translate(arrive_datetime_timezone::TEXT,'+-','-+')::TEXT) || ':00'  else null end arrive_datetime, 
+              case when airline_code='{0}' then pnr_id else null end pnr_id,
+              case when airline_code='{0}' then operating_airline_code else null end operating_airline_code,
+              case when airline_code='{0}' then city_from_name else null end city_from_name,
+              case when airline_code='{0}' then airport_from_name else null end airport_from_name,
+              case WHEN airline_code='{0}' then city_to_name else null end city_to_name,
+              case when airline_code='{0}' then airport_to_name else null end airport_to_name,
+              case when airline_code='{0}' then flight_nums else null end flight_nums,
+              case when airline_code='{0}' then fare_code else null end fare_code,
+              case when airline_code='{0}' then fare_price else null end fare_price
+FROM data_all WHERE ticket_number = '{1}'

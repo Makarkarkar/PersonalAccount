@@ -1,0 +1,9 @@
+<div class="print_by_ticket_number">
+    <button class="print_by_ticket_number_button" id="print_by_ticket_number" (click) = "printByTicketNumber()">Сохранить</button>
+    <label for = "airlines_select_number">Для авиакомпании</label>
+    <select id="airlines_select_number" class ="airlines_select_number">
+        <option *ngFor="let airlineCompany of AirlineCompanies;" value={{airlineCompany.iataCode}}>{{airlineCompany.name}} {{airlineCompany.iataCode}}</option>
+    </select>
+</div>
+
+

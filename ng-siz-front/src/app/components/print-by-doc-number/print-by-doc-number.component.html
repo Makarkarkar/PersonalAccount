@@ -1,0 +1,8 @@
+<div class="print_by_doc_number">
+    <button class="print_by_doc_number_button" id="print_by_doc_number" (click) = "printByDocNumber()">Сохранить</button>
+    <label for = "airlines_select_doc">Для авиакомпании</label>
+    <select id="airlines_select_doc" class ="airlines_select_doc" >
+        <option *ngFor="let airlineCompany of AirlineCompanies;" value={{airlineCompany.iataCode}}>{{airlineCompany.name}} {{airlineCompany.iataCode}}</option>
+    </select>
+</div>
+
