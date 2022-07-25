@@ -1,0 +1,53 @@
+version: '3.4'
+
+networks:
+  dockerapi-dev:
+    driver: bridge
+
+services:
+  dockerapi:
+    image: backend-image:latest
+    depends_on:
+      - "postgres_image"
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "5001:80"
+    environment:
+      ConnectionStrings:SIZConnection: "Host=localhost;Port=5432;Database=SIZ_real;Username=postgres;Password=admin"
+    networks: 
+      - dockerapi-dev
+
+  postgres_image:
+    image: postgres:latest
+    ports:
+      - "5432"
+    restart: always
+    volumes:
+      - ./dbscripts/data_all.sql:/docker-entrypoint-initdb.d/data_all.sql
+      - .:/var/lib/postgresql/data
+    environment:
+      POSTGRES_USER: "postgres"
+      POSTGRES_PASSWORD: "admin"
+      POSTGRES_DB: "SIZ_real"
+      PGDATA: "/var/lib/postgresql/data/pgdata"
+    networks:
+    - dockerapi-dev
+  
+  frontend-image:
+    image: frontend-image:latest
+    depends_on:
+      - "backend-image"
+    build:
+      context: ng-siz-front
+      dockerfile: Dockerfile
+    ports:
+      - "8082:80"
+    environment:
+      API_URL: "http://localhost:5001/api/tickets"
+    networks:
+      - dockerapi-dev
+    
+volumes:
+  dbscripts:
