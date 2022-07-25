@@ -45,7 +45,7 @@ services:
     ports:
       - "8082:80"
     environment:
-      API_URL: "http://localhost:5001/api/tickets"
+      API_URL: "http://localhost:5001/api/v1/transaction/"
     networks:
       - dockerapi-dev
     
