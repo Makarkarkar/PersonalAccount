@@ -9,7 +9,7 @@ COPY ["Personal Account/Personal Account.csproj", "Personal Account/"]
 RUN dotnet restore "Personal Account/Personal Account.csproj"
 COPY . .
 WORKDIR "/src/Personal Account"
-RUN dotnet build "Personal Account" -c Release -o /app/build
+RUN dotnet build "Personal Account.csproj" -c Release -o /app/build
 
 FROM build AS publish
 RUN dotnet publish "Personal Account.csproj" -c Release -o /app/publish
