@@ -5,6 +5,8 @@
         <Nullable>enable</Nullable>
         <ImplicitUsings>enable</ImplicitUsings>
         <RootNamespace>Personal_Account</RootNamespace>
+        <DockerDefaultTargetOS>Windows</DockerDefaultTargetOS>
+        <TypeScriptCompileBlocked>true</TypeScriptCompileBlocked>
     </PropertyGroup>
 
     <ItemGroup>
@@ -29,6 +31,12 @@
 
     <ItemGroup>
       <_ContentIncludedByDefault Remove="ClientApp\package.json" />
+    </ItemGroup>
+    
+    <ItemGroup>
+        <Content Include="SqlRows\**">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </Content>
     </ItemGroup>
 
 </Project>

@@ -1,6 +1,6 @@
 FROM nginx:1.15.4-alpine
 
-COPY dist /usr/share/nginx/html
+COPY dist/ng-siz-front /usr/share/nginx/html
 # Create your own nginx configuration and copy it here
 COPY nginx.conf /etc/nginx/nginx.conf
 

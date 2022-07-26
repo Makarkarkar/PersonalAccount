@@ -22,7 +22,7 @@ services:
   postgres_image:
     image: postgres:latest
     ports:
-      - "5432"
+      - "5433"
     restart: always
     volumes:
       - ./dbscripts/data_all.sql:/docker-entrypoint-initdb.d/data_all.sql
