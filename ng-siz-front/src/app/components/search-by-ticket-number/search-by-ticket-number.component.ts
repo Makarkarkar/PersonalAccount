@@ -23,6 +23,7 @@ export class SearchByTicketNumberComponent implements OnInit {
   }
 
   public getByTicketNumber(){
+    (<HTMLTableElement>document.getElementById('ticket_table')).style.display = 'none';
     this.noTicketSearch.emit(false);
     (<HTMLDivElement>document.getElementById('loader')).style.display = '';
     var ticket_number = (<HTMLInputElement>document.querySelector("#by_ticket_number_input")).value;

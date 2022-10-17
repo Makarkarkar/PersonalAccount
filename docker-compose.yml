@@ -5,7 +5,7 @@ networks:
     driver: bridge
 
 services:
-  dockerapi:
+  backend-image:
     image: backend-image:latest
     depends_on:
       - "postgres_image"
@@ -15,7 +15,7 @@ services:
     ports:
       - "5001:80"
     environment:
-      ConnectionStrings:SIZConnection: "Host=localhost;Port=5432;Database=SIZ_real;Username=postgres;Password=admin"
+      ConnectionStrings:SIZConnection: "Host=localhost;Port=31074;Database=subs;Username=support;Password=skipped"
     networks: 
       - dockerapi-dev
 

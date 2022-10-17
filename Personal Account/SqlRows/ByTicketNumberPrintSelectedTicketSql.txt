@@ -135,7 +135,7 @@ SELECT operation_id,
               type,
               to_char((((utc_time at time zone(original_operation_time_timezone)::TEXT))::TIMESTAMP::TEXT)::TIMESTAMP,'DD.MM.YYYY HH:MI:SS')
                              || CASE WHEN original_operation_time_timezone::TEXT = '0' THEN '+' ELSE '' END
-                             || (translate(original_operation_time_timezone::TEXT,'+-','-+')::TEXT) 
+                             || ((original_operation_time_timezone::TEXT)::TEXT) 
                        	    || ':00'
                        	  AS time,
               case when airline_code='{0}' then place else null end place,
@@ -163,13 +163,13 @@ SELECT operation_id,
               case when airline_code='{0}' then depart_place else null end depart_place,
               to_char((((depart_datetime::TIMESTAMP at time zone(depart_datetime_timezone)::TEXT))::TIMESTAMP::TEXT)::TIMESTAMP,'DD.MM.YYYY HH:MI:SS')
                        || CASE WHEN depart_datetime_timezone::TEXT = '0' THEN '+' ELSE '' END  
-                       || (translate(depart_datetime_timezone::TEXT,'+-','-+')::TEXT) 
+                       || ((depart_datetime_timezone::TEXT)::TEXT) 
                        || ':00'
                        AS depart_datetime,
               case WHEN airline_code='{0}' then arrive_place else null end arrive_place,
               case when airline_code='{0}' then to_char((((arrive_datetime::TIMESTAMP at time zone(arrive_datetime_timezone)::TEXT))::TIMESTAMP::TEXT)::TIMESTAMP,'DD.MM.YYYY HH:MI:SS')
                                                          || CASE WHEN arrive_datetime_timezone::TEXT = '0' THEN '+' ELSE '' END  
-                                                         || (translate(arrive_datetime_timezone::TEXT,'+-','-+')::TEXT) 
+                                                         || ((arrive_datetime_timezone::TEXT)::TEXT) 
                                                          || ':00' else null end arrive_datetime, 
               case when airline_code='{0}' then pnr_id else null end pnr_id,
               case when airline_code='{0}' then operating_airline_code else null end operating_airline_code,
@@ -179,5 +179,9 @@ SELECT operation_id,
               case when airline_code='{0}' then airport_to_name else null end airport_to_name,
               case when airline_code='{0}' then flight_nums else null end flight_nums,
               case when airline_code='{0}' then fare_code else null end fare_code,
-              case when airline_code='{0}' then fare_price else null end fare_price
+              case when airline_code='{0}' then fare_price else null end fare_price,
+              utc_time,
+              ticket_number AS original_ticket_number,
+              depart_datetime AS original_depart_datetime 
 FROM data_all WHERE ticket_number = '{1}'
+ORDER BY utc_time, original_ticket_number, original_depart_datetime, type

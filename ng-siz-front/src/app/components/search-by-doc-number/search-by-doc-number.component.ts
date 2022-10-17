@@ -26,6 +26,7 @@ export class SearchByDocNumberComponent implements OnInit {
   }
    
   public getByDocNumber(){
+    (<HTMLTableElement>document.getElementById('ticket_table')).style.display = 'none';
     this.noTicketSearch.emit(false);
     (<HTMLDivElement>document.getElementById('loader')).style.display = '';
     var doc_number = (<HTMLInputElement>document.querySelector("#by_doc_number_input")).value;

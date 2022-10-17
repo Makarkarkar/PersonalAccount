@@ -39,4 +39,10 @@
         </Content>
     </ItemGroup>
 
+	<ItemGroup>
+		<Content Include="RussianNaming.txt">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+	</ItemGroup>
+
 </Project>

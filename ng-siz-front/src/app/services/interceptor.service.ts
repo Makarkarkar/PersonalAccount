@@ -20,13 +20,20 @@ export class InterceptorService {
         (err) => {
           if (err instanceof HttpErrorResponse) {
             if (err.status == 500) {
+              (<HTMLDivElement>document.getElementById('loader')).style.display = 'none';
               (<HTMLDivElement>document.getElementById('no-avaliable-database')).style.display = '';
+              (<HTMLTableElement>document.getElementById('ticket_table')).style.display = 'none';
             }
             if (err.status == 0) {
+              (<HTMLDivElement>document.getElementById('loader')).style.display = 'none';
               (<HTMLDivElement>document.getElementById('no-avaliable-backend')).style.display = '';
+              (<HTMLTableElement>document.getElementById('ticket_table')).style.display = 'none';
+              
             }
             if (err.status == 408) {
+              (<HTMLDivElement>document.getElementById('loader')).style.display = 'none';
               (<HTMLDivElement>document.getElementById('wrong_time_request_message')).style.display = '';
+              (<HTMLTableElement>document.getElementById('ticket_table')).style.display = 'none';
             }
             else{
               

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3A2CCoDaQPwpJ0WUhjEbPSe/x1rLUdnk/0abbO/EEK1BRAMv29CWGJUU9UapTELnmUfb3RMEauUxHJqKxex0iA==",
+  "dgSpecHash": "ho1UfbWMT43Fvg7RkokcoaicVDjWlFF/h1SD8734sPvAvKAUirZxgt2Cp+Mp0D8UKxbkNteoqxlXNtaHSehTWA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ivvm3\\Downloads\\Personal Account\\Personal Account\\Personal Account\\Personal Account.csproj",
+  "projectFilePath": "C:\\Users\\ivvm3\\RiderProjects\\PersonalAccount\\PersonalAccount\\Personal Account\\Personal Account.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ivvm3\\.nuget\\packages\\csvhelper\\27.2.1\\csvhelper.27.2.1.nupkg.sha512",
     "C:\\Users\\ivvm3\\.nuget\\packages\\dapper\\2.0.123\\dapper.2.0.123.nupkg.sha512",

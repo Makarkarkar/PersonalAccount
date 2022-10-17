@@ -7266,11 +7266,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ivvm3\\Downloads\\Personal Account\\Personal Account\\Personal Account\\Personal Account.csproj",
+      "projectUniqueName": "C:\\Users\\ivvm3\\RiderProjects\\PersonalAccount\\PersonalAccount\\Personal Account\\Personal Account.csproj",
       "projectName": "Personal Account",
-      "projectPath": "C:\\Users\\ivvm3\\Downloads\\Personal Account\\Personal Account\\Personal Account\\Personal Account.csproj",
+      "projectPath": "C:\\Users\\ivvm3\\RiderProjects\\PersonalAccount\\PersonalAccount\\Personal Account\\Personal Account.csproj",
       "packagesPath": "C:\\Users\\ivvm3\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ivvm3\\Downloads\\Personal Account\\Personal Account\\Personal Account\\obj\\",
+      "outputPath": "C:\\Users\\ivvm3\\RiderProjects\\PersonalAccount\\PersonalAccount\\Personal Account\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ivvm3\\AppData\\Roaming\\NuGet\\NuGet.Config",

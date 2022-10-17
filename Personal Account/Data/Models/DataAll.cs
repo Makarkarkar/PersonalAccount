@@ -12,7 +12,7 @@ namespace Personal_Account
         public string Time { get; set; }
         public string? Place { get; set; }
         public string? Sender { get; set; }
-        public DateTimeOffset? TransactionTime { get; set; }
+        public DateTime? TransactionTime { get; set; }
         public string? ValidationStatus { get; set; }
         public long? PassengerId { get; set; }
         public string? Surname { get; set; }
